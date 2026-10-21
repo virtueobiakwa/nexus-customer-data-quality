@@ -1,0 +1,9 @@
+Metric,Value
+Total Master Customers,601
+Unique Customer IDs,601
+Duplicate Customer IDs,0
+Valid Records,568
+Invalid Records,33
+Missing Phone,16
+Missing Email,9
+Malformed Email,9

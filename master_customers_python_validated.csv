@@ -1,0 +1,602 @@
+Customer_ID,Full_Name,Phone,Email,State,Customer_Type,Registration_Date,Source_Channel,Branch,Record_Load_Date,Data_Quality_Status,Customer_ID_Counts.ID_Count,Duplicate_Status,Registration_Date_Clean,Completeness_Score,Quality_Priority,Index,Python_Quality_Status
+CUS00033,Joy Ogunleye,08140256342,joyogunleye33@example.com,Rivers,Corporate,29-Dec-2023,Legacy System,Ibadan,2026-09-23,Valid,1,Unique ID,2023-12-29,6,1,1121,Valid
+CUS00139,Amina Bello,07039861434,aminabello139@example.com,Lagos,Retail,11/03/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-11-03,6,1,899,Valid
+CUS00166,Tolu Sani,08099500479,tolusani166@example.com,Ogun,Individual,05/08/2024,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2024-05-08,6,1,1150,Valid
+CUS00214,Daniel Okeke,08101016668,danielokeke214@example.com,Delta,Retail,04/07/2024,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2024-04-07,6,1,30,Valid
+CUS00233,Zainab Adebayo,09069375679,zainabadebayo233@example.com,Plateau,Retail,2026-04-03,Branch,Abuja Central,2026-09-21,Valid,1,Unique ID,2026-04-03,6,1,475,Valid
+CUS00236,Kemi Adeyemi,09031238282,kemiadeyemi236@example.com,Plateau,Retail,03-Dec-2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-12-03,6,1,882,Valid
+CUS00247,Chioma Bello,08093959629,chiomabello247@example.com,Anambra,Corporate,29-Aug-2023,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2023-08-29,6,1,277,Valid
+CUS00255,Chioma Ibrahim,08055206436,chiomaibrahim255@example.com,Abuja,Small Business,27/05/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-05-27,6,1,817,Valid
+CUS00260,Ibrahim Eze,08145234138,ibrahimeze260@example.com,Delta,SME,12/20/2024,Legacy System,Abuja Central,2026-09-23,Valid,1,Unique ID,2024-12-20,6,1,1125,Valid
+CUS00289,Zainab Ogunleye,08099652239,zainabogunleye289@example.com,Kano,Retail,25-Apr-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-04-25,6,1,824,Valid
+CUS00304,Samuel Abubakar,,samuelabubakar304@example.com,Edo,Retail,06/17/2023,Branch,Ibadan,2026-09-20,Invalid,1,Unique ID,2023-06-17,5,2,269,Invalid
+CUS00392,Ngozi Afolayan,08163926030,ngoziafolayan392@example.com,Plateau,Retail,07-Sep-2025,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2025-09-07,6,1,327,Valid
+CUS00451,Halima Nwosu,09037899405,halimanwosu451@example.com,Abuja,Retail,06-Mar-2025,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2025-03-06,6,1,271,Valid
+CUS00481,Ada Sani,08093060463,adasani481@example.com,Anambra,Retail,12/02/2023,Branch,Ikeja,2026-09-21,Valid,1,Unique ID,2023-12-02,6,1,535,Valid
+CUS00527,Joy Ojo,08148765326,joyojo527@example.com,Delta,Retail,09/11/2025,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2025-09-11,6,1,1134,Valid
+CUS00545,Temitope Ojo,+234 816 4101194,temitopeojo545@example.com,Oyo,SME,06/08/2023,Branch,Kano,2026-09-21,Valid,1,Unique ID,2023-06-08,6,1,515,Valid
+CUS00559,Ngozi Ogunleye,+234 706 2791456,ngoziogunleye559@example.com,Rivers,SME,03/19/2023,Branch,Kano,2026-09-20,Valid,1,Unique ID,2023-03-19,6,1,226,Valid
+CUS00614,Halima Obi,08102711477,halimaobi614@example.com,Enugu,Corporate,13-Nov-2025,Legacy System,Ibadan,2026-09-23,Valid,1,Unique ID,2025-11-13,6,1,1123,Valid
+CUS00625,Joseph Afolayan,08143718344,josephafolayan625@example.com,Rivers,SME,14-Jan-2025,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2025-01-14,6,1,250,Valid
+CUST-00004,Fatima Chukwu,09067816184,fatimachukwu4@example.com,Delta,Retail,03/30/2023,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2023-03-30,6,1,239,Valid
+CUST-00005,Peter Obi,08033413164,peterobi5@example.com,Kaduna,SME,2023-05-23,Branch,Enugu,2026-09-21,Valid,1,Unique ID,2023-05-23,6,1,522,Valid
+CUST-00006,Michael Chukwu,09034192832,michaelchukwu6@example.com,Rivers,Retail,2024-03-05,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2024-03-05,6,1,1139,Valid
+CUST-00007,Michael Sani,08095030564,michaelsani7@example.com,Kano,Corporate,14-Feb-2026,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2026-02-14,6,1,917,Valid
+CUST-00008,Tolu Nwosu,08097672423,tolunwosu8@example.com,Delta,Corporate,2024-10-06,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-10-06,6,1,775,Valid
+CUST-00009,Esther Mohammed,08149653287,esthermohammed9@example.com,Ogun,Retail,2026-04-12,Legacy System,Ikeja,2026-09-23,Valid,1,Unique ID,2026-04-12,6,1,1132,Valid
+CUST-00010,Tolu Adeyemi,09036916697,toluadeyemi10@example.com,Abuja,Retail,11/24/2023,Branch,Lagos Island,2026-09-20,Valid,2,Duplicate ID,2023-11-24,6,1,56,Valid
+CUST-00011,Joseph Ibrahim,09031845146,josephibrahim11@example.com,Ogun,Corporate,2023-01-24,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2023-01-24,6,1,1042,Valid
+CUST-00012,Ada Okeke,07032814893,adaokeke12@example.com,Lagos,Corporate,23/06/2024,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2024-06-23,6,1,1103,Valid
+CUST-00013,Ibrahim Chukwu,08039570154,ibrahimchukwu13@example.com,Rivers,Retail,2025-12-22,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2025-12-22,6,1,117,Valid
+CUST-00014,Zainab Adeyemi,08057182278,zainabadeyemi14@example.com,Oyo,Corporate,06/11/2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-06-11,6,1,328,Valid
+CUST-00015,Ada Ibrahim,08098346578,adaibrahim15@example.com,Ogun,Corporate,05/16/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-05-16,6,1,682,Valid
+CUST-00016,Michael Eze,08039839301,michaeleze16@example.com,Oyo,Retail,23-Nov-2024,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2024-11-23,6,1,1061,Valid
+CUST-00017,Femi Adeyemi,081318347,femiadeyemi17@example.com,Oyo,Retail,06/03/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-06-03,6,1,743,Valid
+CUST-00018,Ibrahim Ekong,08143116566,ibrahimekong18@example.com,Delta,Retail,26-Aug-2025,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2025-08-26,6,1,919,Valid
+CUST-00019,Michael Adeyemi,08036513338,michaeladeyemi19@example.com,Edo,SME,21/07/2023,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2023-07-21,6,1,129,Valid
+CUST-00020,Michael Balogun,08091781080,michaelbalogun20@example.com,Enugu,Retail,08/05/2025,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2025-08-05,6,1,996,Valid
+CUST-00021,Tolu Ogunleye,08096026064,toluogunleye21@example.com,Rivers,Retail,09/12/2025,Legacy System,Abuja Central,2026-09-23,Valid,4,Duplicate ID,2025-09-12,6,1,915,Valid
+CUST-00023,Esther Mohammed,08039788208,esthermohammed23@example.com,Lagos,SME,28/04/2023,Branch,Ikeja,2026-09-20,Valid,2,Duplicate ID,2023-04-28,6,1,53,Valid
+CUST-00024,Tolu Abubakar,08141939909,toluabubakar24@example.com,Abuja,SME,26-Apr-2024,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2024-04-26,6,1,1126,Valid
+CUST-00025,Tolu Ojo,08134353462,toluojo25@example.com,Edo,SME,06/12/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-06-12,6,1,870,Valid
+CUST-00026,Grace Udo,08037991183,graceudo26@example.com,Anambra,Retail,05/29/2023,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2023-05-29,6,1,960,Valid
+CUST-00027,Joseph Ibrahim,08095427849,josephibrahim27@example.com,Rivers,Corporate,21-May-2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-05-21,6,1,710,Valid
+CUST-00029,David Udo,08094874016,davidudo29@example.com,Delta,Retail,2024-12-03,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2024-12-03,6,1,1083,Valid
+CUST-00030,Peter Ibrahim,09034278680,peteribrahim30@example.com,Lagos,Retail,25/09/2023,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2023-09-25,6,1,202,Valid
+CUST-00031,Blessing Bello,08035982620,blessingbello31@example.com,Plateau,Corporate,22-Jan-2026,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2026-01-22,6,1,454,Valid
+CUST-00032,Kemi Chukwu,09033158692,kemichukwu32@example.com,Lagos,Corporate,03/06/2024,Branch,Lagos Island,2026-09-20,Valid,2,Duplicate ID,2024-03-06,6,1,217,Valid
+CUST-00033,Joy Ogunleye,08140256342,joyogunleye33@example.com,Rivers,Corporate,2023-12-29,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2023-12-29,6,1,79,Valid
+CUST-00034,Maryam Eze,08093754330,maryameze34@example.com,Enugu,Corporate,08/21/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-08-21,6,1,851,Valid
+CUST-00035,Grace Nwosu,08105868501,gracenwosu35@example.com,Enugu,Retail,05/23/2023,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2023-05-23,6,1,1059,Valid
+CUST-00036,Ahmed Ibrahim,08031965569,ahmedibrahim36@example.com,Rivers,SME,06/27/2024,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2024-06-27,6,1,60,Valid
+CUST-00037,Joseph Eze,08100608835,josepheze37@example.com,Enugu,Corporate,2024-01-25,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2024-01-25,6,1,1087,Valid
+CUST-00038,Ngozi Bello,08131484656,ngozibello38@example.com,Edo,Corporate,06/30/2026,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2026-06-30,6,1,423,Valid
+CUST-00039,Femi Udo,09036299468,femiudo39@example.com,Ogun,Retail,11-May-2025,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2025-05-11,6,1,552,Valid
+CUST-00040,Peter Okafor,07069577738,peterokafor40@example.com,Kano,Retail,05/30/2025,Legacy System,Ibadan,2026-09-23,Valid,1,Unique ID,2025-05-30,6,1,1119,Valid
+CUST-00041,Halima Abubakar,09039513433,halimaabubakar41@example.com,Edo,Individual,21/11/2025,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2025-11-21,6,1,1063,Valid
+CUST-00042,Ibrahim Okafor,07061769367,ibrahimokafor42@example.com,Lagos,Retail,08/31/2025,Legacy System,Ibadan,2026-09-23,Valid,1,Unique ID,2025-08-31,6,1,1117,Valid
+CUST-00043,Daniel Ogunleye,08056328708,danielogunleye43@example.com,Rivers,Small Business,2023-01-12,Website,Online,2026-09-22,Valid,1,Unique ID,2023-01-12,6,1,828,Valid
+CUST-00044,Zainab Eze,09038895798,zainabeze44@example.com,Anambra,Individual,09/08/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-09-08,6,1,881,Valid
+CUST-00045,Ngozi Mohammed,08164348734,ngozimohammed45@example.com,Anambra,Corporate,2025-08-30,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2025-08-30,6,1,350,Valid
+CUST-00046,Michael Bello,08135812236,michaelbello46@example.com,Plateau,Retail,07/10/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-07-10,6,1,621,Valid
+CUST-00047,Femi Balogun,08145876036,femibalogun47@example.com,Plateau,Retail,29-Apr-2025,Branch,Ibadan,2026-09-21,Valid,4,Duplicate ID,2025-04-29,6,1,451,Valid
+CUST-00049,Esther Mohammed,08094670656,esthermohammed49@example.com,Delta,Corporate,2025-09-26,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2025-09-26,6,1,1149,Valid
+CUST-00050,Esther Abubakar,07030699016,estherabubakar50@example.com,Anambra,Corporate,06/28/2026,Branch,Enugu,2026-09-20,Valid,2,Duplicate ID,2026-06-28,6,1,6,Valid
+CUST-00051,Ibrahim Okeke,08133755646,ibrahimokeke51@example.com,Rivers,Retail,02/15/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-02-15,6,1,796,Valid
+CUST-00052,David Bello,08035310033,davidbello52@example.com,Anambra,Retail,09-Jan-2026,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2026-01-09,6,1,1105,Valid
+CUST-00053,Peter Okafor,08161937452,peterokafor53@example.com,Delta,Retail,2023-09-16,Website,Online,2026-09-22,Valid,1,Unique ID,2023-09-16,6,1,905,Valid
+CUST-00054,Amaka Obi,08101904966,amakaobi54@example.com,Plateau,SME,12/02/2023,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2023-12-02,6,1,444,Valid
+CUST-00055,Femi Nwosu,08091491905,feminwosu55@example.com,Abuja,SME,2026-07-08,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2026-07-08,6,1,1025,Valid
+CUST-00056,Temitope Ojo,090350671,temitopeojo56@example.com,Edo,Retail,11/02/2025,Website,Online,2026-09-22,Valid,4,Duplicate ID,2025-11-02,6,1,695,Valid
+CUST-00057,Musa Okeke,09068498776,musaokeke57@example.com,Plateau,Retail,27/12/2023,Branch,Kano,2026-09-20,Valid,1,Unique ID,2023-12-27,6,1,279,Valid
+CUST-00058,Peter Ekong,08054737996,peterekong58@example.com,Kano,Retail,2024-05-17,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-05-17,6,1,778,Valid
+CUST-00059,Emeka Okafor,08163545494,emekaokafor59@example.com,Anambra,Business,08-Jan-2024,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2024-01-08,6,1,99,Valid
+CUST-00060,Temitope Okafor,08096783777,temitopeokafor60@example.com,Ogun,Corporate,06/25/2023,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2023-06-25,6,1,294,Valid
+CUST-00061,Maryam Okafor,09063495788,maryamokafor61@example.com,Abuja,Retail,08-Apr-2025,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-04-08,6,1,1093,Valid
+CUST-00062,Fatima Ojo,,fatimaojo62@example.com,Plateau,SME,2024-12-21,Branch,Abuja Central,2026-09-20,Invalid,1,Unique ID,2024-12-21,5,2,96,Invalid
+CUST-00063,Emeka Eze,08093749894,emekaeze63@example.com,Plateau,Retail,15-Jan-2024,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2024-01-15,6,1,924,Valid
+CUST-00064,Blessing Nwosu,08100824008,blessingnwosu64@example.com,Kano,Retail,03-Jan-2024,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2024-01-03,6,1,1106,Valid
+CUST-00065,Kemi Balogun,08050947775,,Edo,Corporate,10/02/2025,Branch,Enugu,2026-09-20,Invalid,1,Unique ID,2025-10-02,5,2,31,Invalid
+CUST-00066,Ada Adeyemi,08051671902,adaadeyemi66@example.com,Kano,Corporate,,Branch,Kano,2026-09-20,Valid,1,Unique ID,,5,1,163,Valid
+CUST-00067,Ibrahim Ekong,08058699938,ibrahimekong67@example.com,Kano,Retail,23-May-2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-05-23,6,1,839,Valid
+CUST-00068,Daniel Okeke,08144990913,danielokeke68@example.com,Anambra,Retail,2026-04-20,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2026-04-20,6,1,64,Valid
+CUST-00069,Musa Nwosu,08092812067,musanwosu69@example.com,Kano,SME,2023-11-18,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2023-11-18,6,1,1007,Valid
+CUST-00070,Femi Obi,08104713493,femiobi70@example.com,Anambra,Retail,19/04/2024,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2024-04-19,6,1,407,Valid
+CUST-00071,Ngozi Eze,08102102499,ngozieze71@example.com,Ogun,Retail,02-Nov-2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-11-02,6,1,711,Valid
+CUST-00073,Amaka Adeyemi,08100139904,amakaadeyemi73@example.com,Enugu,SME,21/05/2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-05-21,6,1,622,Valid
+CUST-00074,Victor Adeyemi,08102967175,victoradeyemi74@example.com,Rivers,Individual,06/24/2025,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2025-06-24,6,1,941,Valid
+CUST-00075,Ngozi Afolayan,08136746807,ngoziafolayan75@example.com,Kaduna,SME,26/11/2023,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2023-11-26,6,1,958,Valid
+CUST-00076,Tolu Afolayan,07030876038,toluafolayan76@example.com,Kano,Retail,07/04/2025,Legacy System,Abuja Central,2026-09-23,Valid,3,Duplicate ID,2025-07-04,6,1,964,Valid
+CUST-00078,Amina Obi,07030861317,aminaobi78@example.com,Oyo,Small Business,28/09/2024,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2024-09-28,6,1,1013,Valid
+CUST-00079,Blessing Balogun,07034677378,blessingbalogun79@example.com,Anambra,Corporate,08/20/2024,Branch,Enugu,2026-09-21,Valid,4,Duplicate ID,2024-08-20,6,1,374,Valid
+CUST-00080,Ibrahim Sani,09062146584,ibrahimsani80@example.com,Oyo,Corporate,06-Nov-2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-11-06,6,1,808,Valid
+CUST-00081,Peter Okafor,+234 706 7278755,peterokafor81@example.com,Kano,SME,2026-04-17,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2026-04-17,6,1,985,Valid
+CUST-00082,Temitope Mohammed,08093963605,temitopemohammed82@example.com,Enugu,Retail,10/21/2024,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2024-10-21,6,1,1048,Valid
+CUST-00083,Esther Lawal,08142702895,estherlawal83@example.com,Plateau,Corporate,19/02/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-02-19,6,1,768,Valid
+CUST-00084,Chioma Eze,08032621745,chiomaeze84@example.com,Anambra,Retail,24-Jul-2025,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2025-07-24,6,1,405,Valid
+CUST-00085,Amaka Sani,09038657809,amakasani85@example.com,Edo,Retail,03-Nov-2024,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2024-11-03,6,1,1010,Valid
+CUST-00086,Tolu Ogunleye,08091611724,toluogunleye86@example.com,Edo,SME,2024-08-11,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2024-08-11,6,1,1131,Valid
+CUST-00087,Ahmed Okafor,08105562386,ahmedokafor87@example.com,Lagos,Retail,25/04/2023,Legacy System,Ibadan,2026-09-23,Valid,4,Duplicate ID,2023-04-25,6,1,955,Valid
+CUST-00088,Victor Abubakar,08149379237,victorabubakar88@example.com,Rivers,Retail,02-Jun-2026,Legacy System,Port Harcourt,2026-09-23,Valid,1,Unique ID,2026-06-02,6,1,1128,Valid
+CUST-00089,Musa Ibrahim,08164821759,musaibrahim89@example.com,Anambra,Retail,20/01/2023,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2023-01-20,6,1,252,Valid
+CUST-00090,Kemi Ojo,08096713695,,Plateau,Retail,10/09/2024,Legacy System,Kano,2026-09-23,Invalid,1,Unique ID,2024-10-09,5,2,1127,Invalid
+CUST-00091,Victor Udo,081009097,victorudo91@example.com,Plateau,Retail,2025-03-21,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-03-21,6,1,627,Valid
+CUST-00092,Amaka Chukwu,08102104709,amakachukwu92@example.com,Oyo,Small Business,2026-06-25,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-06-25,6,1,1085,Valid
+CUST-00093,Fatima Balogun,09066232858,fatimabalogun93@example.com,Abuja,Corporate,31-Oct-2024,Branch,Ibadan,2026-09-20,Valid,2,Duplicate ID,2024-10-31,6,1,103,Valid
+CUST-00095,Chioma Mohammed,08034817549,chiomamohammed95@example.com,Kaduna,Retail,19-Mar-2025,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2025-03-19,6,1,483,Valid
+CUST-00096,Daniel Chukwu,08039859317,danielchukwu96@example.com,Abuja,SME,2025-08-23,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2025-08-23,6,1,1045,Valid
+CUST-00097,Joy Udo,08030471138,joyudo97@example.com,Edo,Retail,14/10/2023,Legacy System,Enugu,2026-09-23,Valid,2,Duplicate ID,2023-10-14,6,1,1053,Valid
+CUST-00098,Ibrahim Sani,08149261796,ibrahimsani98@example.com,Anambra,Retail,2026-01-11,Branch,Ikeja,2026-09-20,Valid,2,Duplicate ID,2026-01-11,6,1,114,Valid
+CUST-00099,David Adeyemi,08163515850,davidadeyemi99@example.com,Plateau,Retail,27/06/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-06-27,6,1,738,Valid
+CUST-00100,Daniel Ibrahim,08053900532,danielibrahim100@example.com,Oyo,Corporate,07/20/2025,Branch,Kano,2026-09-20,Valid,2,Duplicate ID,2025-07-20,6,1,326,Valid
+CUST-00101,Maryam Ekong,+234 809 9335290,maryamekong101@example.com,Oyo,Retail,02/09/2026,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2026-02-09,6,1,566,Valid
+CUST-00102,David Balogun,08050205395,davidbalogun102@example.com,Rivers,Retail,2023-12-24,Website,Online,2026-09-22,Valid,1,Unique ID,2023-12-24,6,1,890,Valid
+CUST-00103,Amina Abubakar,07031177589,aminaabubakar103@example.com,Kano,Retail,05/12/2025,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2025-05-12,6,1,1016,Valid
+CUST-00104,Blessing Okeke,08038470076,blessingokeke104@example.com,Ogun,Retail,06/13/2026,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2026-06-13,6,1,424,Valid
+CUST-00105,Ngozi Eze,08051592124,ngozieze105@example.com,Anambra,SME,2025-06-27,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-06-27,6,1,963,Valid
+CUST-00106,Amaka Ekong,07068478961,amakaekong106example.com,Ogun,SME,19-Feb-2025,Branch,Ibadan,2026-09-21,Invalid,1,Unique ID,2025-02-19,6,2,588,Invalid
+CUST-00107,Maryam Eze,09063673657,maryameze107@example.com,Edo,SME,03/02/2026,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-03-02,6,1,984,Valid
+CUST-00108,Daniel Ojo,08134527111,danielojo108@example.com,Plateau,Retail,24-May-2025,Legacy System,Ikeja,2026-09-23,Valid,1,Unique ID,2025-05-24,6,1,1115,Valid
+CUST-00110,Ngozi Chukwu,09060494519,ngozichukwu110@example.com,Edo,Corporate,16-May-2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-05-16,6,1,812,Valid
+CUST-00111,Joseph Nwosu,+234 805 5851493,josephnwosu111@example.com,Rivers,SME,04-Apr-2024,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2024-04-04,6,1,242,Valid
+CUST-00112,Maryam Ojo,07068094024,maryamojo112@example.com,Ogun,Corporate,2026-06-27,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2026-06-27,6,1,1135,Valid
+CUST-00113,Femi Udo,08069612018,femiudo113@example.com,Kaduna,Retail,07/01/2024,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2024-07-01,6,1,1155,Valid
+CUST-00114,Samuel Sani,08134599102,samuelsani114@example.com,Enugu,Retail,19-Nov-2023,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2023-11-19,6,1,36,Valid
+CUST-00115,Ada Obi,08166797643,adaobi115@example.com,Lagos,SME,11/07/2024,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2024-11-07,6,1,110,Valid
+CUST-00117,Amaka Adeyemi,08064451076,amakaadeyemi117@example.com,Lagos,Individual,03/08/2024,Branch,Port Harcourt,2026-09-20,Valid,2,Duplicate ID,2024-03-08,6,1,267,Valid
+CUST-00119,Michael Bello,08146416052,michaelbello119@example.com,Kaduna,SME,03/20/2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-03-20,6,1,726,Valid
+CUST-00120,Maryam Obi,08056136968,maryamobi120@example.com,Anambra,SME,11-Jan-2025,Legacy System,Abuja Central,2026-09-23,Valid,1,Unique ID,2025-01-11,6,1,1153,Valid
+CUST-00121,Tolu Sani,08132181883,tolusani121@example.com,Kano,SME,29/03/2024,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2024-03-29,6,1,1009,Valid
+CUST-00122,Ahmed Chukwu,08091243292,ahmedchukwu122@example.com,Kaduna,SME,30-Oct-2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-10-30,6,1,611,Valid
+CUST-00123,Kelvin Bello,08167997995,kelvinbello123@example.com,Rivers,Corporate,10/07/2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-10-07,6,1,697,Valid
+CUST-00124,Chioma Afolayan,08164490581,chiomaafolayan124@example.com,Rivers,Retail,2025-08-18,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2025-08-18,6,1,987,Valid
+CUST-00125,Kemi Okeke,08101199867,kemiokeke125@example.com,Anambra,Retail,01/25/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-01-25,6,1,608,Valid
+CUST-00126,Victor Mohammed,07063597820,victormohammed126@example.com,Plateau,Corporate,10/07/2025,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2025-10-07,6,1,990,Valid
+CUST-00127,Michael Eze,07032037788,michaeleze127@example.com,Kaduna,Corporate,06/22/2023,Legacy System,Enugu,2026-09-23,Valid,2,Duplicate ID,2023-06-22,6,1,1096,Valid
+CUST-00128,Amaka Abubakar,08146590515,amakaabubakar128@example.com,Kaduna,Retail,2024-08-02,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2024-08-02,6,1,1056,Valid
+CUST-00129,Blessing Mohammed,09069251925,blessingmohammed129@example.com,Edo,Retail,2024-05-31,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2024-05-31,6,1,1113,Valid
+CUST-00130,Kemi Sani,08108652816,kemisani130@example.com,Rivers,Small Business,2023-06-23,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-06-23,6,1,794,Valid
+CUST-00131,Joseph Chukwu,08095733221,josephchukwu131@example.com,Lagos,Retail,05-Jan-2024,Branch,Port Harcourt,2026-09-21,Valid,3,Duplicate ID,2024-01-05,6,1,382,Valid
+CUST-00132,Kemi Eze,08035929622,kemieze132@example.com,Ogun,SME,2025-12-14,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2025-12-14,6,1,476,Valid
+CUST-00133,Ada Obi,08145379473,adaobi133@example.com,Rivers,Small Business,2023-03-31,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2023-03-31,6,1,583,Valid
+CUST-00134,Temitope Ogunleye,08095977468,temitopeogunleye134@example.com,Kano,Business,18-Aug-2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-08-18,6,1,791,Valid
+CUST-00135,Joseph Ojo,08064075818,josephojo135@example.com,Rivers,SME,23/05/2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-05-23,6,1,830,Valid
+CUST-00136,Chioma Eze,08107826137,chiomaeze136@example.com,Kano,Retail,11/25/2023,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2023-11-25,6,1,945,Valid
+CUST-00137,Ahmed Chukwu,07035361530,ahmedchukwu137@example.com,Lagos,Retail,2025-03-22,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-03-22,6,1,678,Valid
+CUST-00138,Emeka Eze,08060472779,emekaeze138@example.com,Plateau,SME,2023-10-27,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-10-27,6,1,723,Valid
+CUST-00139,Amina Bello,07039861434,aminabello139@example.com,Lagos,Retail,2023-11-03,Legacy System,Port Harcourt,2026-09-23,Valid,1,Unique ID,2023-11-03,6,1,1140,Valid
+CUST-00140,Blessing Adeyemi,08161179808,blessingadeyemi140@example.com,Oyo,Retail,29-Jun-2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-06-29,6,1,795,Valid
+CUST-00141,Victor Ogunleye,08039539621,victorogunleye141@example.com,Plateau,Retail,05/29/2025,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2025-05-29,6,1,995,Valid
+CUST-00142,Joseph Chukwu,07038806706,josephchukwu142@example.com,Abuja,Corporate,19-Jan-2026,Legacy System,Abuja Central,2026-09-23,Valid,1,Unique ID,2026-01-19,6,1,1136,Valid
+CUST-00143,Fatima Ibrahim,08133195205,fatimaibrahim143@example.com,Plateau,Retail,19-May-2023,Branch,Enugu,2026-09-20,Valid,3,Duplicate ID,2023-05-19,6,1,90,Valid
+CUST-00144,Temitope Afolayan,09067221704,temitopeafolayan144@example.com,Edo,Individual,08/09/2025,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2025-08-09,6,1,401,Valid
+CUST-00145,Samuel Adeyemi,08108687403,samueladeyemi145@example.com,Oyo,Corporate,2024-10-08,Website,Online,2026-09-22,Valid,1,Unique ID,2024-10-08,6,1,858,Valid
+CUST-00146,Kemi Chukwu,08101566765,kemichukwu146@example.com,Lagos,Business,2024-11-10,Website,Online,2026-09-22,Valid,1,Unique ID,2024-11-10,6,1,880,Valid
+CUST-00147,Ada Lawal,08101616928,adalawal147@example.com,Plateau,Retail,2025-11-29,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2025-11-29,6,1,513,Valid
+CUST-00148,Kemi Afolayan,081079627,kemiafolayan148@example.com,Abuja,Retail,08/28/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-08-28,6,1,728,Valid
+CUST-00149,Chinedu Chukwu,09030165820,chineduchukwu149@example.com,Delta,Business,16-Jul-2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-07-16,6,1,755,Valid
+CUST-00150,Ibrahim Obi,08061355690,ibrahimobi150@example.com,Edo,SME,13-Mar-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-03-13,6,1,829,Valid
+CUST-00151,Amaka Balogun,08137192856,amakabalogun151@example.com,Edo,Retail,01/29/2025,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2025-01-29,6,1,1097,Valid
+CUST-00152,Emeka Ibrahim,09062786814,emekaibrahim152example.com,Oyo,Corporate,23/02/2023,Branch,Abuja Central,2026-09-21,Invalid,1,Unique ID,2023-02-23,6,2,466,Invalid
+CUST-00153,Kelvin Ibrahim,08107312172,kelvinibrahim153@example.com,Plateau,Retail,2026-06-07,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2026-06-07,6,1,948,Valid
+CUST-00154,Ahmed Okeke,09035188442,ahmedokeke154@example.com,Abuja,SME,16/10/2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-10-16,6,1,664,Valid
+CUST-00155,Femi Abubakar,08092370589,femiabubakar155@example.com,Kaduna,Retail,2023-09-06,Branch,Lagos Island,2026-09-21,Valid,2,Duplicate ID,2023-09-06,6,1,387,Valid
+CUST-00156,Fatima Okeke,08054678669,fatimaokeke156@example.com,Ogun,Retail,06/26/2023,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2023-06-26,6,1,1092,Valid
+CUST-00157,Tolu Balogun,08168528922,tolubalogun157@example.com,Kaduna,SME,07/10/2025,Branch,Kano,2026-09-20,Valid,1,Unique ID,2025-07-10,6,1,313,Valid
+CUST-00158,Ngozi Adebayo,08064225358,ngoziadebayo158@example.com,Lagos,SME,11/27/2025,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2025-11-27,6,1,952,Valid
+CUST-00159,Ahmed Udo,07034249818,ahmedudo159@example.com,Abuja,Individual,24/07/2026,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2026-07-24,6,1,1145,Valid
+CUST-00160,Musa Abubakar,08069959001,musaabubakar160@example.com,Delta,Corporate,11/12/2023,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2023-11-12,6,1,333,Valid
+CUST-00161,Chinedu Ekong,08149078447,chineduekong161@example.com,Kano,SME,17-Mar-2026,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-03-17,6,1,1036,Valid
+CUST-00163,Ibrahim Afolayan,08142588153,ibrahimafolayan163@example.com,Plateau,Individual,2024-12-08,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2024-12-08,6,1,167,Valid
+CUST-00165,Peter Afolayan,08067877470,peterafolayan165@example.com,Delta,SME,2024-01-24,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2024-01-24,6,1,926,Valid
+CUST-00166,Tolu Sani,08099500479,tolusani166@example.com,Ogun,Retail,05/08/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-05-08,6,1,893,Valid
+CUST-00167,Ahmed Lawal,08142456506,ahmedlawal167@example.com,Kano,Retail,08/09/2023,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2023-08-09,6,1,1032,Valid
+CUST-00168,Chinedu Ekong,08101687849,chineduekong168@example.com,Ogun,Retail,07-Feb-2026,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2026-02-07,6,1,1120,Valid
+CUST-00169,Grace Obi,08145585239,graceobi169@example.com,Abuja,Retail,2023-07-18,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-07-18,6,1,749,Valid
+CUST-00170,Joseph Sani,08065787298,josephsani170@example.com,Ogun,Retail,2023-03-21,Website,Online,2026-09-22,Valid,1,Unique ID,2023-03-21,6,1,879,Valid
+CUST-00171,Ibrahim Afolayan,07064958887,ibrahimafolayan171@example.com,Delta,Retail,15-Mar-2025,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2025-03-15,6,1,920,Valid
+CUST-00172,Femi Ekong,08135169409,femiekong172@example.com,Kano,Retail,04/02/2023,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2023-04-02,6,1,1030,Valid
+CUST-00174,Kelvin Sani,08039130756,kelvinsani174@example.com,Rivers,SME,11-May-2024,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2024-05-11,6,1,342,Valid
+CUST-00175,Ibrahim Ojo,07067028385,ibrahimojo175@example.com,Plateau,Retail,10/24/2025,Branch,Kano,2026-09-21,Valid,1,Unique ID,2025-10-24,6,1,533,Valid
+CUST-00176,Grace Lawal,08168585497,gracelawal176@example.com,Ogun,Retail,12/21/2023,Legacy System,Enugu,2026-09-23,Valid,2,Duplicate ID,2023-12-21,6,1,927,Valid
+CUST-00177,Samuel Ogunleye,08104375758,samuelogunleye177@example.com,Kano,Small Business,04/05/2024,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2024-04-05,6,1,500,Valid
+CUST-00178,Joy Ibrahim,08146524041,joyibrahim178@example.com,Kano,Retail,2026-01-17,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2026-01-17,6,1,600,Valid
+CUST-00179,Fatima Okeke,08093848421,fatimaokeke179@example.com,Edo,Retail,2025-09-08,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2025-09-08,6,1,1142,Valid
+CUST-00180,Amaka Ekong,08093016571,amakaekong180@example.com,Oyo,Retail,23/12/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-12-23,6,1,867,Valid
+CUST-00181,Grace Balogun,08147734540,gracebalogun181@example.com,Lagos,Corporate,20/11/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-11-20,6,1,657,Valid
+CUST-00183,Ada Udo,07061547887,adaudo183@example.com,Lagos,Retail,09/03/2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-09-03,6,1,727,Valid
+CUST-00184,Ahmed Balogun,08055274205,ahmedbalogun184@example.com,Ogun,Retail,30-Jan-2024,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2024-01-30,6,1,949,Valid
+CUST-00185,Maryam Udo,08069668516,maryamudo185@example.com,Delta,SME,31-Jan-2024,Legacy System,Abuja Central,2026-09-23,Valid,3,Duplicate ID,2024-01-31,6,1,1109,Valid
+CUST-00186,Grace Eze,08133046374,graceeze186@example.com,Rivers,Corporate,04-Sep-2025,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2025-09-04,6,1,953,Valid
+CUST-00187,Emeka Udo,08105301742,emekaudo187@example.com,Delta,SME,2023-01-24,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2023-01-24,6,1,951,Valid
+CUST-00188,Daniel Adebayo,09034593327,danieladebayo188@example.com,Plateau,Small Business,29-Aug-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-08-29,6,1,814,Valid
+CUST-00189,Ibrahim Okeke,08148783391,ibrahimokeke189@example.com,Plateau,Corporate,02/04/2025,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2025-02-04,6,1,1026,Valid
+CUST-00190,Joseph Okeke,07061088398,josephokeke190@example.com,Ogun,SME,09-Jun-2023,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2023-06-09,6,1,354,Valid
+CUST-00191,Ibrahim Abubakar,08053971870,ibrahimabubakar191@example.com,Kaduna,Corporate,06/23/2025,Legacy System,Ikeja,2026-09-23,Valid,1,Unique ID,2025-06-23,6,1,1129,Valid
+CUST-00193,Esther Nwosu,+234 813 1801704,esthernwosu193@example.com,Delta,Retail,2025-05-17,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-05-17,6,1,773,Valid
+CUST-00195,Musa Chukwu,08148230047,musachukwu195@example.com,Abuja,Retail,01/05/2026,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2026-01-05,6,1,1012,Valid
+CUST-00196,Grace Mohammed,08097524310,gracemohammed196@example.com,Enugu,Retail,15-Apr-2024,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2024-04-15,6,1,508,Valid
+CUST-00197,Maryam Ojo,08093119079,maryamojo197@example.com,Delta,SME,02-Feb-2023,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2023-02-02,6,1,24,Valid
+CUST-00198,Grace Adeyemi,08163830284,graceadeyemi198@example.com,Oyo,SME,2025-04-03,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2025-04-03,6,1,925,Valid
+CUST-00199,Zainab Ekong,,zainabekong199@example.com,Kaduna,SME,18/10/2024,Branch,Enugu,2026-09-20,Invalid,1,Unique ID,2024-10-18,5,2,304,Invalid
+CUST-00200,Chinedu Mohammed,09036870568,chinedumohammed200@example.com,Delta,Corporate,25/12/2023,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2023-12-25,6,1,340,Valid
+CUST-00201,Emeka Ojo,080687334,emekaojo201@example.com,Enugu,Retail,09/02/2025,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2025-09-02,6,1,126,Valid
+CUST-00202,Joy Adeyemi,07038263435,joyadeyemi202@example.com,Ogun,Retail,2025-05-03,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2025-05-03,6,1,1068,Valid
+CUST-00203,Musa Bello,07033046990,musabello203@example.com,Anambra,SME,2023-07-09,Legacy System,Port Harcourt,2026-09-23,Valid,1,Unique ID,2023-07-09,6,1,1111,Valid
+CUST-00204,Chioma Bello,09068373540,chiomabello204@example.com,Oyo,SME,18/04/2026,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2026-04-18,6,1,1065,Valid
+CUST-00205,Samuel Nwosu,08099363854,samuelnwosu205@example.com,Plateau,Retail,07-Sep-2025,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2025-09-07,6,1,1102,Valid
+CUST-00206,Daniel Okeke,08105877175,danielokeke206@example.com,Ogun,SME,2024-09-23,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2024-09-23,6,1,87,Valid
+CUST-00207,Joy Nwosu,07063204899,joynwosu207@example.com,Kaduna,Retail,04-Apr-2023,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2023-04-04,6,1,452,Valid
+CUST-00208,Esther Ojo,08096937854,estherojo208@example.com,Kano,Retail,06-Nov-2024,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2024-11-06,6,1,1075,Valid
+CUST-00209,Kelvin Lawal,08162522872,kelvinlawal209@example.com,Plateau,SME,01-Oct-2025,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2025-10-01,6,1,319,Valid
+CUST-00210,Joy Mohammed,08031006231,joymohammed210@example.com,Edo,Corporate,09/12/2025,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2025-09-12,6,1,392,Valid
+CUST-00211,Femi Balogun,08130997700,femibalogun211@example.com,Lagos,Retail,07/22/2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-07-22,6,1,724,Valid
+CUST-00213,Blessing Eze,07068454615,blessingeze213@example.com,Ogun,Retail,2024-01-29,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2024-01-29,6,1,488,Valid
+CUST-00216,Zainab Nwosu,08100148902,zainabnwosu216@example.com,Plateau,Corporate,31/08/2025,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2025-08-31,6,1,593,Valid
+CUST-00217,Joy Afolayan,08066142939,joyafolayan217@example.com,Lagos,Corporate,04/17/2026,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2026-04-17,6,1,937,Valid
+CUST-00218,Peter Sani,08142185016,petersani218@example.com,Edo,Corporate,11/10/2024,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2024-11-10,6,1,923,Valid
+CUST-00219,Zainab Bello,07066504773,zainabbello219@example.com,Kaduna,SME,11-Jun-2026,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2026-06-11,6,1,1035,Valid
+CUST-00220,Fatima Mohammed,09036194311,fatimamohammed220@example.com,Enugu,Retail,14/04/2026,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2026-04-14,6,1,8,Valid
+CUST-00221,David Balogun,08066551104,davidbalogun221@example.com,Enugu,SME,2026-07-22,Website,Online,2026-09-22,Valid,1,Unique ID,2026-07-22,6,1,807,Valid
+CUST-00222,Michael Chukwu,,michaelchukwu222@example.com,Kano,Retail,28/06/2023,Branch,Abuja Central,2026-09-20,Invalid,1,Unique ID,2023-06-28,5,2,50,Invalid
+CUST-00223,Amina Bello,07065604661,aminabello223@example.com,Kaduna,SME,2026-05-07,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-05-07,6,1,716,Valid
+CUST-00224,Esther Mohammed,09036224447,esthermohammed224@example.com,Oyo,SME,14/12/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-12-14,6,1,822,Valid
+CUST-00225,Ibrahim Bello,08107154379,ibrahimbello225@example.com,Rivers,Retail,2025-05-12,Legacy System,Ibadan,2026-09-23,Valid,5,Duplicate ID,2025-05-12,6,1,946,Valid
+CUST-00226,Amaka Nwosu,08036596575,amakanwosu226@example.com,Anambra,Retail,09/15/2024,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2024-09-15,6,1,978,Valid
+CUST-00227,Ngozi Obi,09063752654,ngoziobi227@example.com,Rivers,Retail,20/05/2026,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2026-05-20,6,1,1037,Valid
+CUST-00228,Esther Lawal,08144651939,estherlawal228@example.com,Delta,SME,29/10/2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-10-29,6,1,613,Valid
+CUST-00229,Temitope Abubakar,+234 906 7374167,temitopeabubakar229@example.com,Edo,SME,25-Feb-2023,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2023-02-25,6,1,597,Valid
+CUST-00230,Ibrahim Udo,09066617979,ibrahimudo230@example.com,Oyo,Retail,12-Nov-2023,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2023-11-12,6,1,149,Valid
+CUST-00231,Daniel Mohammed,07030589113,danielmohammed231@example.com,Ogun,Corporate,05/06/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-05-06,6,1,623,Valid
+CUST-00232,Grace Chukwu,07066561014,gracechukwu232@example.com,Rivers,SME,01-Apr-2023,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2023-04-01,6,1,977,Valid
+CUST-00233,Zainab Adebayo,09069375679,zainabadebayo233@example.com,Plateau,Retail,04/03/2026,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-04-03,6,1,989,Valid
+CUST-00234,Femi Adebayo,08161461125,femiadebayo234@example.com,Rivers,Retail,20/02/2023,Legacy System,Ibadan,2026-09-23,Valid,1,Unique ID,2023-02-20,6,1,1112,Valid
+CUST-00235,Kemi Afolayan,08165717751,kemiafolayan235@example.com,Anambra,SME,2025-12-03,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2025-12-03,6,1,940,Valid
+CUST-00236,Kemi Adeyemi,09031238282,kemiadeyemi236@example.com,Plateau,Retail,12/03/2024,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2024-12-03,6,1,1041,Valid
+CUST-00237,Emeka Mohammed,08142266093,emekamohammed237@example.com,Enugu,Corporate,19/04/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-04-19,6,1,862,Valid
+CUST-00238,Michael Ekong,08094191825,michaelekong238@example.com,Enugu,Retail,03/15/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-03-15,6,1,849,Valid
+CUST-00239,Emeka Nwosu,07035969691,emekanwosu239@example.com,Anambra,Retail,09/29/2025,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2025-09-29,6,1,199,Valid
+CUST-00240,Fatima Chukwu,+234 706 9125134,fatimachukwu240@example.com,Anambra,Small Business,2024-09-01,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-09-01,6,1,786,Valid
+CUST-00241,Blessing Abubakar,08146929662,blessingabubakar241@example.com,Kaduna,Small Business,2025-11-12,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-11-12,6,1,730,Valid
+CUST-00242,Halima Mohammed,07032742257,halimamohammed242@example.com,Plateau,Corporate,21-Dec-2023,Legacy System,Enugu,2026-09-23,Valid,2,Duplicate ID,2023-12-21,6,1,1047,Valid
+CUST-00243,Amaka Adeyemi,08063688767,amakaadeyemi243@example.com,Kaduna,Corporate,09/19/2025,Branch,Abuja Central,2026-09-21,Valid,1,Unique ID,2025-09-19,6,1,489,Valid
+CUST-00244,Ngozi Okeke,08033404384,ngoziokeke244@example.com,Anambra,Retail,03/03/2026,Legacy System,Ibadan,2026-09-23,Valid,4,Duplicate ID,2026-03-03,6,1,1049,Valid
+CUST-00245,Ada Okeke,07038191485,adaokeke245@example.com,Delta,SME,11-Oct-2025,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2025-10-11,6,1,932,Valid
+CUST-00246,Temitope Adeyemi,08141340745,temitopeadeyemi246@example.com,Plateau,Retail,2024-03-23,Website,Online,2026-09-22,Valid,1,Unique ID,2024-03-23,6,1,841,Valid
+CUST-00247,Chioma Bello,08093959629,,Anambra,Corporate,29-Aug-2023,Branch,Kano,2026-09-21,Invalid,1,Unique ID,2023-08-29,5,2,550,Invalid
+CUST-00248,Ibrahim Nwosu,08138498254,ibrahimnwosu248@example.com,Oyo,Small Business,13-Mar-2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-03-13,6,1,769,Valid
+CUST-00249,Kemi Ekong,09031260422,kemiekong249@example.com,Kano,Corporate,19-Nov-2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-11-19,6,1,884,Valid
+CUST-00250,Zainab Balogun,09036729466,zainabbalogun250@example.com,Plateau,Retail,21-May-2024,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2024-05-21,6,1,933,Valid
+CUST-00251,Michael Bello,08148457759,michaelbello251@example.com,Edo,SME,10/07/2023,Branch,Port Harcourt,2026-09-21,Valid,3,Duplicate ID,2023-10-07,6,1,390,Valid
+CUST-00252,Amina Bello,09035186363,aminabello252@example.com,Plateau,Corporate,24/07/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-07-24,6,1,900,Valid
+CUST-00253,Halima Ibrahim,,halimaibrahim253@example.com,Kaduna,SME,22/11/2024,Branch,Enugu,2026-09-21,Invalid,1,Unique ID,2024-11-22,5,2,482,Invalid
+CUST-00254,Blessing Okeke,08167063242,blessingokeke254@example.com,Lagos,Retail,20/11/2023,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2023-11-20,6,1,323,Valid
+CUST-00256,Musa Bello,08161293870,musabello256@example.com,Plateau,Retail,2024-03-13,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2024-03-13,6,1,1130,Valid
+CUST-00257,Amina Afolayan,09062713611,aminaafolayan257@example.com,Abuja,Corporate,14-May-2025,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-05-14,6,1,1077,Valid
+CUST-00258,Blessing Afolayan,08142218909,blessingafolayan258@example.com,Kaduna,Corporate,08-Oct-2023,Legacy System,Ikeja,2026-09-23,Valid,1,Unique ID,2023-10-08,6,1,1137,Valid
+CUST-00259,Musa Abubakar,09032697311,musaabubakar259@example.com,Anambra,Individual,12-Mar-2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-03-12,6,1,831,Valid
+CUST-00260,Ibrahim Eze,08145234138,ibrahimeze260@example.com,Delta,SME,20-Dec-2024,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2024-12-20,6,1,571,Valid
+CUST-00261,Amaka Obi,09034389836,amakaobi261@example.com,Plateau,SME,02/24/2023,Branch,Ikeja,2026-09-20,Valid,2,Duplicate ID,2023-02-24,6,1,273,Valid
+CUST-00262,Kemi Adeyemi,08097918055,kemiadeyemi262@example.com,Oyo,Retail,19/08/2023,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2023-08-19,6,1,17,Valid
+CUST-00263,Ibrahim Sani,09032710910,ibrahimsani263@example.com,Delta,Retail,23/01/2026,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2026-01-23,6,1,981,Valid
+CUST-00264,David Nwosu,07034866618,davidnwosu264@example.com,Lagos,Corporate,03/26/2025,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2025-03-26,6,1,1101,Valid
+CUST-00265,Temitope Obi,08058328569,temitopeobi265@example.com,Rivers,Retail,26/09/2024,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2024-09-26,6,1,998,Valid
+CUST-00266,Musa Bello,08033161799,musabello266@example.com,Kano,SME,03/05/2024,Branch,Kano,2026-09-21,Valid,1,Unique ID,2024-03-05,6,1,531,Valid
+CUST-00267,Chinedu Udo,08050202758,chineduudo267@example.com,Edo,SME,26/12/2023,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2023-12-26,6,1,230,Valid
+CUST-00268,Joseph Ibrahim,09061056481,josephibrahim268@example.com,Rivers,Retail,04/07/2024,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2024-04-07,6,1,1104,Valid
+CUST-00269,David Ekong,07035079252,davidekong269@example.com,Edo,Retail,2025-07-21,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-07-21,6,1,646,Valid
+CUST-00270,David Eze,08098000307,davideze270@example.com,Delta,SME,08/25/2023,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2023-08-25,6,1,334,Valid
+CUST-00271,Fatima Sani,+234 703 6353654,fatimasani271@example.com,Rivers,Retail,2023-03-14,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2023-03-14,6,1,1000,Valid
+CUST-00272,Peter Bello,+234 903 0238061,peterbello272@example.com,Delta,Retail,25-Oct-2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-10-25,6,1,713,Valid
+CUST-00273,Ahmed Okeke,08131870534,ahmedokeke273@example.com,Kano,SME,2024-09-28,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2024-09-28,6,1,245,Valid
+CUST-00274,Victor Udo,081397383,victorudo274@example.com,Plateau,SME,,Branch,Abuja Central,2026-09-21,Valid,3,Duplicate ID,,5,1,369,Valid
+CUST-00275,Joy Ojo,09030506413,joyojo275@example.com,Lagos,Retail,10-Dec-2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-12-10,6,1,850,Valid
+CUST-00278,Zainab Udo,09065574313,zainabudo278@example.com,Kano,Corporate,15-Mar-2025,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-03-15,6,1,1094,Valid
+CUST-00279,Ibrahim Ekong,08167561853,ibrahimekong279@example.com,Abuja,Retail,2023-12-03,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-12-03,6,1,785,Valid
+CUST-00280,Michael Udo,08052490352,michaeludo280@example.com,Anambra,Retail,09/03/2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-09-03,6,1,124,Valid
+CUST-00281,Tolu Ogunleye,090344206,toluogunleye281@example.com,Kaduna,Retail,11-Apr-2023,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2023-04-11,6,1,523,Valid
+CUST-00282,Esther Mohammed,08061003236,esthermohammed282@example.com,Oyo,Individual,28/07/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-07-28,6,1,667,Valid
+CUST-00283,Fatima Bello,08031372151,fatimabello283@example.com,Delta,SME,03/06/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-03-06,6,1,771,Valid
+CUST-00284,Chinedu Okeke,08146706625,chineduokeke284@example.com,Lagos,Retail,21/03/2026,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2026-03-21,6,1,438,Valid
+CUST-00285,Samuel Abubakar,08039993476,samuelabubakar285@example.com,Kano,Retail,01-Nov-2023,Branch,Enugu,2026-09-20,Valid,2,Duplicate ID,2023-11-01,6,1,63,Valid
+CUST-00286,Ahmed Mohammed,08142638380,ahmedmohammed286@example.com,Anambra,Retail,2024-07-26,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2024-07-26,6,1,409,Valid
+CUST-00287,Daniel Chukwu,08139856420,danielchukwu287@example.com,Anambra,Retail,09/19/2025,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2025-09-19,6,1,104,Valid
+CUST-00288,Emeka Obi,08037859321,emekaobi288@example.com,Oyo,Retail,07/29/2024,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2024-07-29,6,1,970,Valid
+CUST-00291,Ada Lawal,07063087059,adalawal291@example.com,Lagos,Retail,21-Apr-2024,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2024-04-21,6,1,1154,Valid
+CUST-00293,Tolu Chukwu,07061545226,toluchukwu293@example.com,Plateau,Corporate,2025-03-21,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2025-03-21,6,1,284,Valid
+CUST-00294,Maryam Lawal,09069539264,maryamlawal294@example.com,Edo,Individual,24-Feb-2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-02-24,6,1,853,Valid
+CUST-00296,Joy Obi,08162513552,joyobi296@example.com,Oyo,SME,02-Aug-2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-08-02,6,1,615,Valid
+CUST-00297,Musa Bello,08160433154,musabello297@example.com,Plateau,SME,18-Nov-2024,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2024-11-18,6,1,983,Valid
+CUST-00298,Maryam Eze,,maryameze298@example.com,Plateau,Retail,03/01/2025,Legacy System,Abuja Central,2026-09-23,Invalid,1,Unique ID,2025-03-01,5,2,1133,Invalid
+CUST-00299,Daniel Eze,09033271040,danieleze299@example.com,Anambra,SME,2026-03-29,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2026-03-29,6,1,1058,Valid
+CUST-00300,Emeka Ibrahim,08142181599,emekaibrahim300@example.com,Abuja,Individual,12/15/2023,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2023-12-15,6,1,1022,Valid
+CUST-00301,Ahmed Lawal,07066201533,ahmedlawal301@example.com,Plateau,Retail,04/12/2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-04-12,6,1,629,Valid
+CUST-00302,Ngozi Mohammed,08104431069,ngozimohammed302@example.com,Plateau,Corporate,11-Jan-2026,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2026-01-11,6,1,490,Valid
+CUST-00303,Temitope Lawal,+234 814 1497310,temitopelawal303@example.com,Rivers,Retail,08-Jan-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-01-08,6,1,840,Valid
+CUST-00304,Samuel Abubakar,08161467741,samuelabubakar304@example.com,Edo,Retail,06/17/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-06-17,6,1,827,Valid
+CUST-00305,Musa Mohammed,08132704774,musamohammed305@example.com,Enugu,Retail,2025-02-20,Branch,Ikeja,2026-09-21,Valid,1,Unique ID,2025-02-20,6,1,527,Valid
+CUST-00306,Zainab Ibrahim,08055869380,zainabibrahim306@example.com,Delta,Retail,18/07/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-07-18,6,1,865,Valid
+CUST-00307,Peter Sani,09037937416,petersani307@example.com,Ogun,Retail,01-Jan-2026,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2026-01-01,6,1,1017,Valid
+CUST-00308,Ahmed Adeyemi,07069217223,ahmedadeyemi308@example.com,Ogun,SME,24/11/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-11-24,6,1,861,Valid
+CUST-00309,Maryam Nwosu,09036329451,maryamnwosu309@example.com,Rivers,Retail,2023-06-10,Branch,Lagos Island,2026-09-21,Valid,2,Duplicate ID,2023-06-10,6,1,450,Valid
+CUST-00310,Tolu Sani,08108709986,tolusani310@example.com,Ogun,Retail,2024-10-29,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2024-10-29,6,1,221,Valid
+CUST-00311,Blessing Ojo,07061191485,blessingojo311@example.com,Rivers,Retail,19/04/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-04-19,6,1,889,Valid
+CUST-00312,Ahmed Ojo,07069702462,ahmedojo312@example.com,Kano,Retail,09/21/2025,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2025-09-21,6,1,34,Valid
+CUST-00314,Emeka Udo,09061324754,emekaudo314@example.com,Kano,Retail,03-Oct-2025,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2025-10-03,6,1,1006,Valid
+CUST-00315,Esther Ojo,08163678508,estherojo315@example.com,Delta,SME,20/01/2024,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2024-01-20,6,1,501,Valid
+CUST-00316,Maryam Abubakar,08142890233,maryamabubakar316@example.com,Abuja,Retail,03-Nov-2025,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2025-11-03,6,1,210,Valid
+CUST-00317,Peter Adeyemi,08133457861,peteradeyemi317@example.com,Oyo,Retail,14-Apr-2023,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2023-04-14,6,1,994,Valid
+CUST-00318,Grace Okafor,08162798552,graceokafor318@example.com,Oyo,Retail,01/05/2026,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2026-01-05,6,1,1124,Valid
+CUST-00319,Peter Ibrahim,08100602933,peteribrahim319@example.com,Plateau,SME,05/07/2023,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2023-05-07,6,1,73,Valid
+CUST-00320,Musa Ogunleye,07030072290,musaogunleye320@example.com,Edo,Individual,04/18/2025,Branch,Kano,2026-09-20,Valid,1,Unique ID,2025-04-18,6,1,93,Valid
+CUST-00321,Zainab Ibrahim,09064665743,zainabibrahim321@example.com,Delta,SME,17/09/2024,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2024-09-17,6,1,160,Valid
+CUST-00323,Amaka Udo,08055454443,amakaudo323@example.com,Kano,SME,09/13/2025,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2025-09-13,6,1,403,Valid
+CUST-00325,Daniel Sani,,danielsani325@example.com,Plateau,Retail,2026-03-17,Branch,Abuja Central,2026-09-20,Invalid,1,Unique ID,2026-03-17,5,2,309,Invalid
+CUST-00326,Chioma Abubakar,081017248,chiomaabubakar326@example.com,Edo,Corporate,06-Jan-2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-01-06,6,1,731,Valid
+CUST-00327,Musa Bello,08145549471,musabello327@example.com,Oyo,Retail,09/20/2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-09-20,6,1,677,Valid
+CUST-00328,Halima Adeyemi,08057381684,halimaadeyemi328@example.com,Edo,Small Business,06/25/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-06-25,6,1,902,Valid
+CUST-00329,Ngozi Adeyemi,08136972521,ngoziadeyemi329@example.com,Rivers,Retail,15/02/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-02-15,6,1,898,Valid
+CUST-00330,Halima Afolayan,09030074329,halimaafolayan330@example.com,Edo,Corporate,10/03/2024,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2024-10-03,6,1,243,Valid
+CUST-00331,Kelvin Abubakar,08069666676,kelvinabubakar331@example.com,Anambra,SME,30-Jun-2023,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2023-06-30,6,1,1116,Valid
+CUST-00333,Femi Chukwu,07039421044,femichukwu333@example.com,Kano,Retail,02/24/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-02-24,6,1,801,Valid
+CUST-00334,Michael Adebayo,09032575326,michaeladebayo334@example.com,Delta,Retail,2025-06-07,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2025-06-07,6,1,26,Valid
+CUST-00335,Amina Ogunleye,08090982150,aminaogunleye335@example.com,Oyo,SME,26/09/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-09-26,6,1,876,Valid
+CUST-00336,Daniel Ibrahim,08031001676,danielibrahim336@example.com,Ogun,SME,05/01/2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-05-01,6,1,665,Valid
+CUST-00337,Blessing Mohammed,08090461849,blessingmohammed337@example.com,Kano,Retail,10-Nov-2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-11-10,6,1,618,Valid
+CUST-00338,Amaka Balogun,07039141173,amakabalogun338@example.com,Enugu,SME,08/03/2023,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2023-08-03,6,1,1003,Valid
+CUST-00339,Amaka Nwosu,08136420873,amakanwosu339@example.com,Kano,Small Business,18-Feb-2024,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2024-02-18,6,1,1084,Valid
+CUST-00340,Femi Lawal,09031197218,femilawal340@example.com,Kaduna,Retail,27/01/2023,Branch,Lagos Island,2026-09-21,Valid,4,Duplicate ID,2023-01-27,6,1,429,Valid
+CUST-00341,Tolu Eze,08104701204,tolueze341@example.com,Kano,Small Business,24-Jul-2025,Website,Online,2026-09-22,Valid,4,Duplicate ID,2025-07-24,6,1,679,Valid
+CUST-00342,Fatima Afolayan,,fatimaafolayan342@example.com,Enugu,SME,07/14/2023,Website,Online,2026-09-22,Invalid,2,Duplicate ID,2023-07-14,5,2,702,Invalid
+CUST-00343,David Bello,08056674676,davidbello343@example.com,Kaduna,SME,10-Jan-2024,Branch,Ibadan,2026-09-21,Valid,3,Duplicate ID,2024-01-10,6,1,417,Valid
+CUST-00344,Musa Abubakar,+234 806 1697972,musaabubakar344@example.com,Abuja,Retail,01/05/2023,Legacy System,Ibadan,2026-09-23,Valid,4,Duplicate ID,2023-01-05,6,1,980,Valid
+CUST-00345,Amaka Sani,08167167014,amakasani345@example.com,Kaduna,SME,09/25/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-09-25,6,1,687,Valid
+CUST-00346,Musa Afolayan,09069935889,musaafolayan346@example.com,Lagos,SME,10/12/2025,Branch,Port Harcourt,2026-09-20,Valid,2,Duplicate ID,2025-10-12,6,1,94,Valid
+CUST-00347,Blessing Ojo,08136289002,blessingojo347@example.com,Edo,SME,13/09/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-09-13,6,1,610,Valid
+CUST-00348,Joseph Lawal,08165354083,josephlawal348@example.com,Anambra,Corporate,2023-06-03,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2023-06-03,6,1,320,Valid
+CUST-00349,Temitope Sani,08167971775,temitopesani349@example.com,Enugu,SME,11-Jun-2023,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2023-06-11,6,1,559,Valid
+CUST-00350,Blessing Lawal,08146088019,blessinglawal350@example.com,Plateau,SME,07/30/2023,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2023-07-30,6,1,265,Valid
+CUST-00351,Amaka Udo,08135037589,amakaudo351@example.com,Ogun,SME,2025-07-23,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2025-07-23,6,1,296,Valid
+CUST-00352,Amaka Lawal,08051305548,amakalawal352@example.com,Plateau,SME,15/07/2025,Branch,Port Harcourt,2026-09-20,Valid,2,Duplicate ID,2025-07-15,6,1,155,Valid
+CUST-00353,Joseph Chukwu,08162614933,josephchukwu353@example.com,Plateau,Retail,2023-12-03,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2023-12-03,6,1,322,Valid
+CUST-00354,Blessing Sani,09065160917,blessingsani354@example.com,Oyo,Retail,26-Jan-2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-01-26,6,1,643,Valid
+CUST-00355,Michael Ekong,08038086978,michaelekong355@example.com,Ogun,Retail,18/10/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-10-18,6,1,659,Valid
+CUST-00356,Kelvin Abubakar,08056995866,kelvinabubakar356@example.com,Plateau,SME,20/09/2023,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2023-09-20,6,1,1052,Valid
+CUST-00357,Amaka Ogunleye,08107226984,amakaogunleye357@example.com,Kano,Retail,03-Dec-2024,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2024-12-03,6,1,1064,Valid
+CUST-00359,Femi Abubakar,09061587996,femiabubakar359@example.com,Ogun,Retail,10/22/2024,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2024-10-22,6,1,942,Valid
+CUST-00360,Grace Mohammed,08038106200,gracemohammed360@example.com,Kano,Corporate,15/05/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-05-15,6,1,798,Valid
+CUST-00361,Samuel Ibrahim,08060438057,samuelibrahim361@example.com,Rivers,Corporate,28/05/2024,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2024-05-28,6,1,301,Valid
+CUST-00362,Blessing Obi,09068638406,blessingobi362@example.com,Edo,SME,,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,,5,1,540,Valid
+CUST-00363,Daniel Ojo,,danielojo363@example.com,Edo,Retail,02/04/2026,Website,Online,2026-09-22,Invalid,1,Unique ID,2026-02-04,5,2,863,Invalid
+CUST-00364,Kelvin Ekong,09063472122,kelvinekong364@example.com,Ogun,SME,2024-02-07,Website,Online,2026-09-22,Valid,4,Duplicate ID,2024-02-07,6,1,725,Valid
+CUST-00365,Esther Adebayo,08108422940,estheradebayo365example.com,Abuja,Retail,2025-05-27,Branch,Lagos Island,2026-09-20,Invalid,1,Unique ID,2025-05-27,6,2,285,Invalid
+CUST-00366,Emeka Okeke,08065909479,emekaokeke366@example.com,Plateau,Corporate,23-Mar-2023,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2023-03-23,6,1,437,Valid
+CUST-00367,Temitope Chukwu,07033281826,temitopechukwu367@example.com,Abuja,SME,12-Oct-2024,Legacy System,Kano,2026-09-23,Valid,4,Duplicate ID,2024-10-12,6,1,999,Valid
+CUST-00368,Temitope Mohammed,,temitopemohammed368@example.com,Enugu,Retail,03/29/2024,Branch,Ibadan,2026-09-20,Invalid,1,Unique ID,2024-03-29,5,2,4,Invalid
+CUST-00369,Halima Mohammed,08163993056,halimamohammed369@example.com,Edo,Retail,09-Dec-2024,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2024-12-09,6,1,55,Valid
+CUST-00372,Peter Eze,09031207501,petereze372@example.com,Oyo,Retail,10/06/2025,Branch,Abuja Central,2026-09-20,Valid,2,Duplicate ID,2025-10-06,6,1,67,Valid
+CUST-00373,Tolu Adeyemi,08059346676,toluadeyemi373@example.com,Rivers,SME,02/16/2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-02-16,6,1,676,Valid
+CUST-00374,Ngozi Afolayan,07030919015,ngoziafolayan374@example.com,Lagos,Retail,31/08/2023,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2023-08-31,6,1,976,Valid
+CUST-00376,Ada Mohammed,07034245088,adamohammed376@example.com,Oyo,Retail,11-Mar-2025,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2025-03-11,6,1,929,Valid
+CUST-00377,Ibrahim Eze,08148814353,ibrahimeze377@example.com,Lagos,Retail,06-May-2026,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2026-05-06,6,1,171,Valid
+CUST-00378,Ngozi Adebayo,07064312908,ngoziadebayo378@example.com,Rivers,Retail,2024-03-28,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2024-03-28,6,1,1074,Valid
+CUST-00379,Michael Mohammed,08101397552,michaelmohammed379@example.com,Abuja,Retail,2023-05-18,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2023-05-18,6,1,393,Valid
+CUST-00380,Grace Ogunleye,08095775949,graceogunleye380@example.com,Abuja,Retail,05/23/2023,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2023-05-23,6,1,381,Valid
+CUST-00381,Ibrahim Ekong,08142053364,ibrahimekong381@example.com,Delta,Retail,10/09/2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-10-09,6,1,897,Valid
+CUST-00382,Peter Chukwu,08167754781,peterchukwu382@example.com,Rivers,Small Business,10/11/2024,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2024-10-11,6,1,1004,Valid
+CUST-00383,Ada Obi,07033411080,adaobi383@example.com,Abuja,SME,14-Oct-2023,Branch,Kano,2026-09-20,Valid,1,Unique ID,2023-10-14,6,1,213,Valid
+CUST-00384,Peter Ekong,,peterekong384example.com,Delta,Retail,2026-04-23,Branch,Ibadan,2026-09-20,Invalid,1,Unique ID,2026-04-23,5,2,310,Invalid
+CUST-00385,Fatima Sani,09064278816,fatimasani385@example.com,Oyo,Corporate,22-Apr-2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-04-22,6,1,797,Valid
+CUST-00387,Victor Balogun,08033731453,victorbalogun387@example.com,Plateau,SME,04/01/2025,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2025-04-01,6,1,1024,Valid
+CUST-00388,Chinedu Nwosu,08147700518,chinedunwosu388@example.com,Ogun,Corporate,09/01/2025,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2025-09-01,6,1,1099,Valid
+CUST-00389,Musa Ibrahim,07062665918,musaibrahim389@example.com,Plateau,Retail,01/19/2026,Branch,Abuja Central,2026-09-21,Valid,3,Duplicate ID,2026-01-19,6,1,371,Valid
+CUST-00390,David Sani,08137790827,davidsani390@example.com,Oyo,Retail,12/23/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-12-23,6,1,784,Valid
+CUST-00391,Ada Ogunleye,080922259,adaogunleye391example.com,Abuja,Retail,2024-07-29,Website,Online,2026-09-22,Invalid,1,Unique ID,2024-07-29,6,2,837,Invalid
+CUST-00392,Ngozi Afolayan,+234 816 3926030,ngoziafolayan392@example.com,Plateau,Individual,07/09/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-07-09,6,1,809,Valid
+CUST-00393,Ibrahim Ekong,07030920242,ibrahimekong393@example.com,Delta,Retail,07/13/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-07-13,6,1,835,Valid
+CUST-00394,Joseph Sani,09064137977,josephsani394@example.com,Delta,Corporate,2023-02-08,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-02-08,6,1,751,Valid
+CUST-00395,Ada Ogunleye,08069842579,adaogunleye395@example.com,Enugu,SME,04/08/2026,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2026-04-08,6,1,209,Valid
+CUST-00396,Victor Bello,+234 805 0388629,victorbello396@example.com,Oyo,Retail,28-Sep-2023,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2023-09-28,6,1,972,Valid
+CUST-00397,Blessing Abubakar,08038811729,blessingabubakar397@example.com,Anambra,Corporate,2026-05-13,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2026-05-13,6,1,1005,Valid
+CUST-00398,Temitope Okafor,08145086376,temitopeokafor398@example.com,Edo,SME,2025-12-05,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-12-05,6,1,874,Valid
+CUST-00399,Fatima Ekong,08056247314,fatimaekong399@example.com,Plateau,Corporate,2026-03-25,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-03-25,6,1,770,Valid
+CUST-00400,Amaka Mohammed,09060981806,amakamohammed400@example.com,Enugu,Retail,,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,,5,1,1046,Valid
+CUST-00401,Musa Nwosu,08131269448,musanwosu401@example.com,Plateau,SME,04/17/2025,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2025-04-17,6,1,1031,Valid
+CUST-00402,Ngozi Ekong,08096887258,,Kaduna,SME,24-Mar-2025,Website,Online,2026-09-22,Invalid,1,Unique ID,2025-03-24,5,2,869,Invalid
+CUST-00404,Samuel Adebayo,07060260127,samueladebayo404@example.com,Enugu,SME,01-Feb-2026,Legacy System,Enugu,2026-09-23,Valid,3,Duplicate ID,2026-02-01,6,1,1051,Valid
+CUST-00405,Joy Obi,08095190669,joyobi405@example.com,Enugu,Retail,2024-06-22,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2024-06-22,6,1,938,Valid
+CUST-00406,Musa Adebayo,08032770384,musaadebayo406@example.com,Kano,SME,2026-05-08,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-05-08,6,1,735,Valid
+CUST-00407,Samuel Adeyemi,07062053021,samueladeyemi407@example.com,Delta,Retail,19-Apr-2024,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2024-04-19,6,1,561,Valid
+CUST-00408,David Sani,07063801184,davidsani408@example.com,Kaduna,SME,10-Apr-2025,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2025-04-10,6,1,376,Valid
+CUST-00409,Esther Mohammed,08099376904,esthermohammed409@example.com,Delta,Retail,20/07/2024,Branch,Lagos Island,2026-09-20,Valid,3,Duplicate ID,2024-07-20,6,1,227,Valid
+CUST-00410,Ada Ojo,07034518489,adaojo410@example.com,Ogun,Retail,2023-05-29,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2023-05-29,6,1,1090,Valid
+CUST-00411,David Okeke,08137790714,davidokeke411@example.com,Enugu,SME,13-May-2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-05-13,6,1,693,Valid
+CUST-00412,Tolu Sani,09033565880,,Edo,SME,03/27/2024,Legacy System,Kano,2026-09-23,Invalid,1,Unique ID,2024-03-27,5,2,1151,Invalid
+CUST-00413,Femi Ibrahim,09035182755,femiibrahim413@example.com,Oyo,Retail,28/03/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-03-28,6,1,692,Valid
+CUST-00414,Samuel Ekong,08163334333,samuelekong414@example.com,Kano,Retail,01/25/2024,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2024-01-25,6,1,28,Valid
+CUST-00415,Peter Ogunleye,08051790807,peterogunleye415@example.com,Delta,Retail,07/08/2023,Branch,Ikeja,2026-09-20,Valid,2,Duplicate ID,2023-07-08,6,1,45,Valid
+CUST-00416,Fatima Obi,08107284639,fatimaobi416@example.com,Kaduna,Retail,22/03/2026,Legacy System,Abuja Central,2026-09-23,Valid,1,Unique ID,2026-03-22,6,1,1148,Valid
+CUST-00417,Ibrahim Adeyemi,07030856271,ibrahimadeyemi417@example.com,Ogun,Small Business,09/06/2025,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2025-09-06,6,1,465,Valid
+CUST-00420,Samuel Ojo,08144729293,samuelojo420@example.com,Plateau,SME,17-Jan-2025,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2025-01-17,6,1,1072,Valid
+CUST-00421,Peter Eze,07036632270,petereze421@example.com,Plateau,Retail,04/27/2024,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2024-04-27,6,1,1015,Valid
+CUST-00422,Ada Ojo,07038574489,adaojo422@example.com,Anambra,Retail,07/15/2026,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-07-15,6,1,982,Valid
+CUST-00424,Fatima Mohammed,08130615939,fatimamohammed424@example.com,Ogun,Business,11-Jun-2024,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2024-06-11,6,1,253,Valid
+CUST-00425,Victor Mohammed,08135877169,victormohammed425@example.com,Rivers,Corporate,08/05/2024,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2024-08-05,6,1,1039,Valid
+CUST-00426,Kemi Okeke,09035699611,kemiokeke426@example.com,Edo,Corporate,10-Dec-2023,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2023-12-10,6,1,504,Valid
+CUST-00428,Joseph Okeke,08063413261,josephokeke428@example.com,Enugu,Retail,17/02/2023,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2023-02-17,6,1,1008,Valid
+CUST-00429,Blessing Bello,08148114921,blessingbello429@example.com,Anambra,Retail,2023-02-23,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2023-02-23,6,1,375,Valid
+CUST-00431,Chioma Afolayan,08108728299,chiomaafolayan431@example.com,Anambra,Individual,2026-01-12,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-01-12,6,1,642,Valid
+CUST-00433,Fatima Ojo,08038254780,fatimaojo433@example.com,Kano,Retail,2023-01-22,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2023-01-22,6,1,934,Valid
+CUST-00434,Femi Lawal,08109308536,femilawal434@example.com,Anambra,Retail,2025-05-31,Branch,Kano,2026-09-20,Valid,1,Unique ID,2025-05-31,6,1,42,Valid
+CUST-00435,Ahmed Mohammed,09066634163,ahmedmohammed435@example.com,Enugu,Retail,01/12/2023,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2023-01-12,6,1,590,Valid
+CUST-00436,Joseph Obi,+234 903 8463122,josephobi436@example.com,Plateau,Small Business,06/08/2024,Branch,Abuja Central,2026-09-21,Valid,3,Duplicate ID,2024-06-08,6,1,411,Valid
+CUST-00437,Kemi Eze,08109735020,kemieze437@example.com,Edo,Retail,16-Jul-2025,Branch,Enugu,2026-09-21,Valid,1,Unique ID,2025-07-16,6,1,585,Valid
+CUST-00438,Temitope Okafor,081027031,temitopeokafor438@example.com,Rivers,Corporate,07/31/2024,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2024-07-31,6,1,455,Valid
+CUST-00439,Halima Nwosu,08137051204,halimanwosu439@example.com,Kaduna,Retail,17/10/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-10-17,6,1,892,Valid
+CUST-00440,Kelvin Sani,08094601367,kelvinsani440@example.com,Abuja,Retail,07/01/2024,Website,Online,2026-09-22,Valid,3,Duplicate ID,2024-07-01,6,1,685,Valid
+CUST-00441,Zainab Adeyemi,07033764520,zainabadeyemi441example.com,Oyo,Retail,12/07/2023,Legacy System,Ikeja,2026-09-23,Invalid,4,Duplicate ID,2023-12-07,6,2,935,Invalid
+CUST-00442,Esther Mohammed,09034350313,esthermohammed442@example.com,Ogun,Retail,09/12/2025,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2025-09-12,6,1,1029,Valid
+CUST-00443,Musa Ojo,07061630097,musaojo443@example.com,Kaduna,Retail,2024-07-19,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2024-07-19,6,1,61,Valid
+CUST-00444,Femi Obi,+234 809 2719500,femiobi444@example.com,Rivers,Retail,03/07/2023,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2023-03-07,6,1,491,Valid
+CUST-00445,Fatima Balogun,08067358573,fatimabalogun445@example.com,Plateau,Individual,08/08/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-08-08,6,1,908,Valid
+CUST-00446,Amina Sani,08037784873,aminasani446@example.com,Kaduna,SME,05/28/2024,Branch,Kano,2026-09-20,Valid,1,Unique ID,2024-05-28,6,1,331,Valid
+CUST-00447,Victor Abubakar,08109821827,victorabubakar447@example.com,Ogun,Retail,17/08/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-08-17,6,1,744,Valid
+CUST-00449,Zainab Afolayan,08143878294,zainabafolayan449@example.com,Plateau,Retail,2026-01-08,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-01-08,6,1,620,Valid
+CUST-00450,Emeka Ojo,07031022031,emekaojo450@example.com,Edo,Retail,07/17/2023,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2023-07-17,6,1,187,Valid
+CUST-00451,Halima Nwosu,09037899405,halimanwosu451@example.com,Abuja,Individual,03/06/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-03-06,6,1,783,Valid
+CUST-00452,Zainab Obi,09037170586,zainabobi452@example.com,Plateau,Retail,2024-03-03,Legacy System,Abuja Central,2026-09-23,Valid,4,Duplicate ID,2024-03-03,6,1,988,Valid
+CUST-00453,Peter Chukwu,08108014138,peterchukwu453@example.com,Plateau,Retail,17-Jun-2026,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2026-06-17,6,1,954,Valid
+CUST-00454,Blessing Eze,08093839288,blessingeze454@example.com,Plateau,Retail,2025-02-28,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2025-02-28,6,1,1141,Valid
+CUST-00455,Ngozi Eze,09066122868,ngozieze455@example.com,Edo,SME,2025-07-28,Website,Online,2026-09-22,Valid,1,Unique ID,2025-07-28,6,1,838,Valid
+CUST-00456,Emeka Abubakar,08135855665,emekaabubakar456@example.com,Ogun,Corporate,06/26/2025,Branch,Abuja Central,2026-09-21,Valid,3,Duplicate ID,2025-06-26,6,1,357,Valid
+CUST-00457,Amaka Ogunleye,07034577600,amakaogunleye457@example.com,Delta,Retail,07/02/2025,Legacy System,Lagos Island,2026-09-23,Valid,1,Unique ID,2025-07-02,6,1,1118,Valid
+CUST-00458,Kemi Obi,+234 803 4335048,kemiobi458@example.com,Lagos,Retail,10-Sep-2024,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2024-09-10,6,1,386,Valid
+CUST-00459,Joseph Mohammed,08050752245,josephmohammed459@example.com,Delta,Corporate,11/13/2023,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2023-11-13,6,1,507,Valid
+CUST-00460,Ahmed Ekong,08059693157,ahmedekong460@example.com,Oyo,Retail,07/09/2024,Branch,Abuja Central,2026-09-21,Valid,1,Unique ID,2024-07-09,6,1,572,Valid
+CUST-00461,Ada Lawal,07064096105,adalawal461@example.com,Plateau,SME,15-Jul-2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-07-15,6,1,894,Valid
+CUST-00462,Fatima Ojo,08099060480,fatimaojo462@example.com,Enugu,Corporate,04/09/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-04-09,6,1,901,Valid
+CUST-00463,Emeka Mohammed,09063206799,emekamohammed463@example.com,Delta,Retail,2025-10-25,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-10-25,6,1,689,Valid
+CUST-00464,Joseph Bello,08062517908,josephbello464@example.com,Oyo,Retail,03/18/2025,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2025-03-18,6,1,1018,Valid
+CUST-00465,Daniel Ibrahim,09062278376,danielibrahim465@example.com,Abuja,Retail,2025-06-08,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2025-06-08,6,1,189,Valid
+CUST-00466,Musa Ekong,08093146591,musaekong466@example.com,Oyo,SME,12/09/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-12-09,6,1,844,Valid
+CUST-00467,Blessing Ojo,08135904259,blessingojo467@example.com,Enugu,Retail,01/26/2024,Branch,Ibadan,2026-09-21,Valid,3,Duplicate ID,2024-01-26,6,1,446,Valid
+CUST-00468,Peter Okeke,08093521103,peterokeke468@example.com,Delta,Retail,02-Apr-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-04-02,6,1,806,Valid
+CUST-00469,Amaka Balogun,08107705383,amakabalogun469@example.com,Kano,Retail,16-Aug-2023,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2023-08-16,6,1,1055,Valid
+CUST-00470,Samuel Mohammed,08169206980,samuelmohammed470@example.com,Ogun,SME,28/01/2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-01-28,6,1,684,Valid
+CUST-00471,David Abubakar,,davidabubakar471@example.com,Lagos,Retail,2026-06-19,Website,Online,2026-09-22,Invalid,1,Unique ID,2026-06-19,5,2,825,Invalid
+CUST-00472,Chioma Eze,08096815798,chiomaeze472@example.com,Lagos,Retail,03/02/2025,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2025-03-02,6,1,399,Valid
+CUST-00473,Tolu Abubakar,07030038457,toluabubakar473@example.com,Oyo,Retail,07/26/2025,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-07-26,6,1,1069,Valid
+CUST-00474,Daniel Abubakar,08134384046,danielabubakar474@example.com,Lagos,Retail,2024-12-21,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2024-12-21,6,1,456,Valid
+CUST-00475,Ahmed Okafor,08065621689,ahmedokafor475@example.com,Ogun,Corporate,06/04/2024,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2024-06-04,6,1,962,Valid
+CUST-00476,Chioma Ogunleye,08144957823,chiomaogunleye476@example.com,Enugu,Retail,09-Nov-2023,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2023-11-09,6,1,49,Valid
+CUST-00477,Musa Balogun,08064826292,,Delta,Retail,19/02/2024,Branch,Ibadan,2026-09-21,Invalid,2,Duplicate ID,2024-02-19,5,2,528,Invalid
+CUST-00478,Emeka Bello,08065205664,emekabello478@example.com,Ogun,Retail,2023-08-31,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2023-08-31,6,1,931,Valid
+CUST-00479,Michael Ibrahim,08062099499,michaelibrahim479@example.com,Rivers,SME,08/07/2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-08-07,6,1,5,Valid
+CUST-00481,Ada Sani,08093060463,adasani481@example.com,Anambra,Retail,12/02/2023,Branch,Kano,2026-09-20,Valid,1,Unique ID,2023-12-02,6,1,280,Valid
+CUST-00482,Esther Nwosu,07067573660,esthernwosu482@example.com,Oyo,Retail,18-Jun-2025,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2025-06-18,6,1,493,Valid
+CUST-00483,Amaka Sani,+234 906 9988081,amakasani483@example.com,Plateau,Retail,06/06/2026,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2026-06-06,6,1,125,Valid
+CUST-00484,Michael Okeke,07038608680,michaelokeke484@example.com,Lagos,Corporate,18/05/2024,Branch,Lagos Island,2026-09-20,Valid,2,Duplicate ID,2024-05-18,6,1,25,Valid
+CUST-00485,Samuel Udo,08107264908,,Anambra,Retail,09/15/2024,Legacy System,Enugu,2026-09-23,Invalid,1,Unique ID,2024-09-15,5,2,1152,Invalid
+CUST-00486,Ahmed Balogun,08058129826,ahmedbalogun486@example.com,Anambra,SME,07/14/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-07-14,6,1,759,Valid
+CUST-00487,Ngozi Afolayan,07063714521,ngoziafolayan487@example.com,Anambra,Retail,18/07/2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-07-18,6,1,636,Valid
+CUST-00489,Daniel Adeyemi,09032222064,danieladeyemi489@example.com,Rivers,Corporate,04/03/2026,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2026-04-03,6,1,1002,Valid
+CUST-00490,Kemi Okeke,08063094077,kemiokeke490@example.com,Kano,SME,2023-08-29,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2023-08-29,6,1,1108,Valid
+CUST-00491,Chioma Lawal,08163397767,chiomalawal491@example.com,Ogun,SME,30-May-2026,Branch,Enugu,2026-09-21,Valid,1,Unique ID,2026-05-30,6,1,481,Valid
+CUST-00492,Tolu Obi,08109830220,toluobi492@example.com,Delta,Individual,25/01/2026,Legacy System,Abuja Central,2026-09-23,Valid,3,Duplicate ID,2026-01-25,6,1,1040,Valid
+CUST-00493,Musa Chukwu,09039945101,musachukwu493@example.com,Lagos,Retail,03/08/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-03-08,6,1,832,Valid
+CUST-00494,Ngozi Abubakar,+234 903 9982795,ngoziabubakar494@example.com,Rivers,SME,2026-06-05,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-06-05,6,1,787,Valid
+CUST-00496,Ibrahim Eze,07036833901,ibrahimeze496@example.com,Plateau,Corporate,,Website,Online,2026-09-22,Valid,1,Unique ID,,5,1,906,Valid
+CUST-00497,Victor Adebayo,09064695489,victoradebayo497@example.com,Abuja,Retail,2026-05-23,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2026-05-23,6,1,1081,Valid
+CUST-00498,Amaka Chukwu,07037729343,amakachukwu498@example.com,Rivers,SME,13/10/2025,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2025-10-13,6,1,921,Valid
+CUST-00499,Amina Eze,09063966055,aminaeze499@example.com,Lagos,Retail,2023-08-30,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2023-08-30,6,1,169,Valid
+CUST-00500,Temitope Nwosu,08101448850,temitopenwosu500@example.com,Lagos,SME,07/30/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-07-30,6,1,859,Valid
+CUST-00501,Blessing Afolayan,070602355,blessingafolayan501@example.com,Kaduna,Retail,11-Mar-2026,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-03-11,6,1,612,Valid
+CUST-00503,Kemi Ekong,07030395512,kemiekong503@example.com,Plateau,SME,11-Feb-2026,Website,Online,2026-09-22,Valid,4,Duplicate ID,2026-02-11,6,1,741,Valid
+CUST-00505,Chioma Udo,08106173574,chiomaudo505@example.com,Plateau,Corporate,2023-03-06,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-03-06,6,1,868,Valid
+CUST-00506,Samuel Adebayo,08033178078,samueladebayo506@example.com,Kano,Retail,02/05/2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-02-05,6,1,734,Valid
+CUST-00507,Ibrahim Nwosu,08105218230,ibrahimnwosu507@example.com,Kaduna,Corporate,2025-12-08,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2025-12-08,6,1,979,Valid
+CUST-00509,Blessing Adebayo,,blessingadebayo509@example.com,Edo,SME,02/16/2023,Branch,Kano,2026-09-21,Invalid,1,Unique ID,2023-02-16,5,2,578,Invalid
+CUST-00510,Temitope Afolayan,08062410988,temitopeafolayan510@example.com,Anambra,Small Business,07/12/2024,Branch,Kano,2026-09-20,Valid,1,Unique ID,2024-07-12,6,1,151,Valid
+CUST-00511,Blessing Nwosu,08102493214,blessingnwosu511@example.com,Ogun,Retail,10/14/2024,Branch,Port Harcourt,2026-09-20,Valid,1,Unique ID,2024-10-14,6,1,71,Valid
+CUST-00512,Amaka Afolayan,08037016016,amakaafolayan512@example.com,Ogun,Retail,24-Sep-2023,Branch,Lagos Island,2026-09-21,Valid,2,Duplicate ID,2023-09-24,6,1,573,Valid
+CUST-00513,Daniel Abubakar,09037954538,danielabubakar513@example.com,Plateau,SME,04/28/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-04-28,6,1,875,Valid
+CUST-00514,Tolu Okeke,08057477332,toluokeke514@example.com,Delta,Retail,08/17/2025,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2025-08-17,6,1,1027,Valid
+CUST-00515,Chioma Obi,08065577017,chiomaobi515@example.com,Kano,Corporate,13-Mar-2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-03-13,6,1,736,Valid
+CUST-00516,Blessing Chukwu,08105992816,blessingchukwu516@example.com,Anambra,Retail,12/16/2023,Legacy System,Port Harcourt,2026-09-23,Valid,4,Duplicate ID,2023-12-16,6,1,918,Valid
+CUST-00517,Peter Eze,08108769639,petereze517@example.com,Kaduna,SME,26/05/2023,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2023-05-26,6,1,214,Valid
+CUST-00518,Zainab Mohammed,,zainabmohammed518@example.com,Rivers,Corporate,,Branch,Abuja Central,2026-09-20,Invalid,1,Unique ID,,4,2,231,Invalid
+CUST-00519,Temitope Ogunleye,09069719975,temitopeogunleye519@example.com,Rivers,SME,09/06/2023,Legacy System,Enugu,2026-09-23,Valid,2,Duplicate ID,2023-09-06,6,1,973,Valid
+CUST-00520,Temitope Eze,08059196570,temitopeeze520@example.com,Anambra,Retail,11-Apr-2025,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2025-04-11,6,1,275,Valid
+CUST-00521,Tolu Nwosu,08062784699,tolunwosu521@example.com,Rivers,Corporate,01/01/2023,Branch,Enugu,2026-09-21,Valid,3,Duplicate ID,2023-01-01,6,1,441,Valid
+CUST-00522,Michael Nwosu,08109465190,michaelnwosu522@example.com,Oyo,SME,10/10/2024,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2024-10-10,6,1,218,Valid
+CUST-00523,Amaka Adebayo,08035800851,amakaadebayo523@example.com,Enugu,SME,25/08/2024,Branch,Abuja Central,2026-09-21,Valid,3,Duplicate ID,2024-08-25,6,1,358,Valid
+CUST-00524,Chioma Udo,08145666683,chiomaudo524@example.com,Lagos,Retail,23-Apr-2026,Branch,Kano,2026-09-21,Valid,1,Unique ID,2026-04-23,6,1,494,Valid
+CUST-00525,Grace Abubakar,08145624220,graceabubakar525@example.com,Anambra,Retail,02/11/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-02-11,6,1,895,Valid
+CUST-00526,Tolu Okafor,09036212679,toluokafor526@example.com,Rivers,SME,2025-09-23,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-09-23,6,1,788,Valid
+CUST-00527,Joy Ojo,08148765326,joyojo527@example.com,Delta,Retail,09/11/2025,Branch,Lagos Island,2026-09-20,Valid,1,Unique ID,2025-09-11,6,1,165,Valid
+CUST-00528,Amaka Okafor,09068468950,amakaokafor528@example.com,Delta,Retail,29-Apr-2024,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2024-04-29,6,1,594,Valid
+CUST-00529,Chinedu Ekong,07067128478,chineduekong529@example.com,Anambra,SME,20-Aug-2023,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2023-08-20,6,1,1038,Valid
+CUST-00531,Temitope Okafor,,temitopeokafor531@example.com,Anambra,Retail,18-Aug-2025,Legacy System,Ibadan,2026-09-23,Invalid,1,Unique ID,2025-08-18,5,2,1147,Invalid
+CUST-00532,Femi Obi,08100792904,femiobi532@example.com,Plateau,Retail,02/28/2026,Legacy System,Lagos Island,2026-09-23,Valid,3,Duplicate ID,2026-02-28,6,1,1054,Valid
+CUST-00533,Maryam Obi,08068144294,maryamobi533@example.com,Lagos,Retail,18/06/2023,Legacy System,Port Harcourt,2026-09-23,Valid,2,Duplicate ID,2023-06-18,6,1,1023,Valid
+CUST-00534,David Ibrahim,08069275243,davidibrahim534@example.com,Lagos,SME,21-May-2026,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2026-05-21,6,1,416,Valid
+CUST-00535,Halima Abubakar,08052927663,halimaabubakar535@example.com,Ogun,Corporate,2024-12-03,Branch,Ikeja,2026-09-21,Valid,3,Duplicate ID,2024-12-03,6,1,596,Valid
+CUST-00536,Grace Okeke,07065041027,graceokeke536@example.com,Plateau,SME,07/03/2024,Legacy System,Port Harcourt,2026-09-23,Valid,4,Duplicate ID,2024-07-03,6,1,1033,Valid
+CUST-00537,Daniel Lawal,08096674286,daniellawal537@example.com,Kano,Retail,26-Dec-2025,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2025-12-26,6,1,966,Valid
+CUST-00538,Amina Udo,07030185694,aminaudo538@example.com,Anambra,Retail,08/10/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-08-10,6,1,802,Valid
+CUST-00539,Emeka Ibrahim,09039673938,emekaibrahim539@example.com,Kano,SME,06/06/2024,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2024-06-06,6,1,364,Valid
+CUST-00540,Emeka Abubakar,08050618175,emekaabubakar540@example.com,Kaduna,Retail,01/18/2023,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2023-01-18,6,1,1019,Valid
+CUST-00541,Zainab Udo,07061093911,zainabudo541@example.com,Kano,Retail,18/02/2023,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-02-18,6,1,750,Valid
+CUST-00542,Tolu Obi,08061244717,toluobi542@example.com,Rivers,Retail,2026-03-05,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2026-03-05,6,1,1078,Valid
+CUST-00543,Joy Ibrahim,08102140665,joyibrahim543@example.com,Enugu,SME,2024-10-24,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-10-24,6,1,753,Valid
+CUST-00544,Chinedu Ibrahim,08163962712,chineduibrahim544@example.com,Kano,Retail,05/23/2023,Branch,Abuja Central,2026-09-21,Valid,2,Duplicate ID,2023-05-23,6,1,362,Valid
+CUST-00545,Temitope Ojo,08164101194,temitopeojo545@example.com,Oyo,SME,2023-08-06,Website,Online,2026-09-22,Valid,1,Unique ID,2023-08-06,6,1,878,Valid
+CUST-00547,Victor Okafor,08166618306,victorokafor547@example.com,Ogun,Small Business,01/10/2025,Branch,Abuja Central,2026-09-21,Valid,1,Unique ID,2025-01-10,6,1,498,Valid
+CUST-00548,Femi Lawal,08134601585,femilawal548@example.com,Abuja,Small Business,01/05/2025,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2025-01-05,6,1,378,Valid
+CUST-00549,Tolu Okeke,07030634615,toluokeke549@example.com,Kano,SME,28-Dec-2023,Website,Online,2026-09-22,Valid,4,Duplicate ID,2023-12-28,6,1,720,Valid
+CUST-00550,Halima Bello,08060309376,halimabello550@example.com,Edo,Retail,24-Jan-2024,Legacy System,Lagos Island,2026-09-23,Valid,4,Duplicate ID,2024-01-24,6,1,1011,Valid
+CUST-00551,Tolu Mohammed,08160050506,tolumohammed551@example.com,Edo,Retail,2025-12-29,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2025-12-29,6,1,928,Valid
+CUST-00552,Blessing Nwosu,09038293102,blessingnwosu552@example.com,Edo,SME,2025-07-27,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2025-07-27,6,1,1144,Valid
+CUST-00553,Halima Okafor,08033202041,halimaokafor553@example.com,Anambra,Corporate,06/20/2026,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2026-06-20,6,1,3,Valid
+CUST-00554,Michael Obi,080517993,michaelobi554@example.com,Rivers,SME,11/05/2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-11-05,6,1,292,Valid
+CUST-00555,Ngozi Afolayan,08059825309,ngoziafolayan555@example.com,Plateau,SME,10/26/2024,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2024-10-26,6,1,943,Valid
+CUST-00556,Ada Afolayan,08142582739,adaafolayan556example.com,Abuja,Retail,,Branch,Port Harcourt,2026-09-21,Invalid,1,Unique ID,,5,2,496,Invalid
+CUST-00557,Chinedu Balogun,07066207100,chinedubalogun557@example.com,Abuja,SME,18-Jul-2026,Website,Online,2026-09-22,Valid,4,Duplicate ID,2026-07-18,6,1,660,Valid
+CUST-00558,Ada Bello,08147232487,adabello558@example.com,Plateau,SME,04/08/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-04-08,6,1,772,Valid
+CUST-00560,Amina Mohammed,08059588373,aminamohammed560@example.com,Oyo,Retail,21/12/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-12-21,6,1,714,Valid
+CUST-00561,David Adeyemi,09037722005,davidadeyemi561@example.com,Oyo,Retail,11/02/2023,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2023-11-02,6,1,944,Valid
+CUST-00562,Kemi Nwosu,08160108220,keminwosu562example.com,Enugu,Retail,2026-06-17,Legacy System,Ibadan,2026-09-23,Invalid,1,Unique ID,2026-06-17,6,2,1143,Invalid
+CUST-00563,Halima Adebayo,09067995635,halimaadebayo563@example.com,Abuja,Retail,04/26/2024,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2024-04-26,6,1,1089,Valid
+CUST-00564,Zainab Eze,09066363179,zainabeze564@example.com,Kaduna,Retail,2024-04-30,Website,Online,2026-09-22,Valid,1,Unique ID,2024-04-30,6,1,836,Valid
+CUST-00567,Kelvin Afolayan,08069298316,kelvinafolayan567@example.com,Oyo,Corporate,21/05/2026,Website,Online,2026-09-22,Valid,1,Unique ID,2026-05-21,6,1,887,Valid
+CUST-00568,Chioma Adebayo,07067740633,chiomaadebayo568@example.com,Anambra,Corporate,03/19/2024,Branch,Port Harcourt,2026-09-20,Valid,2,Duplicate ID,2024-03-19,6,1,281,Valid
+CUST-00572,Michael Okeke,08065701658,michaelokeke572@example.com,Rivers,Corporate,10/04/2025,Branch,Port Harcourt,2026-09-21,Valid,2,Duplicate ID,2025-10-04,6,1,383,Valid
+CUST-00573,Chinedu Udo,070393195,chineduudo573@example.com,Enugu,Small Business,08-Jun-2026,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-06-08,6,1,763,Valid
+CUST-00574,Joy Chukwu,08169055281,joychukwu574@example.com,Lagos,Retail,2025-01-18,Legacy System,Ikeja,2026-09-23,Valid,4,Duplicate ID,2025-01-18,6,1,965,Valid
+CUST-00575,Temitope Nwosu,07031793355,temitopenwosu575@example.com,Rivers,Corporate,2024-05-03,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-05-03,6,1,805,Valid
+CUST-00576,Ahmed Ibrahim,08031557788,ahmedibrahim576@example.com,Ogun,SME,07/21/2024,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2024-07-21,6,1,939,Valid
+CUST-00577,Peter Eze,08107951371,petereze577@example.com,Anambra,Small Business,2025-12-27,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2025-12-27,6,1,1082,Valid
+CUST-00578,Tolu Sani,08052412723,tolusani578@example.com,Rivers,Retail,2023-06-07,Website,Online,2026-09-22,Valid,3,Duplicate ID,2023-06-07,6,1,647,Valid
+CUST-00580,Tolu Okafor,09035695579,toluokafor580@example.com,Oyo,Small Business,30/11/2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-11-30,6,1,752,Valid
+CUST-00581,Grace Adebayo,07062424375,graceadebayo581@example.com,Ogun,Retail,09/14/2024,Legacy System,Abuja Central,2026-09-23,Valid,3,Duplicate ID,2024-09-14,6,1,975,Valid
+CUST-00582,Kemi Adeyemi,08069284222,kemiadeyemi582@example.com,Rivers,Retail,22-Jul-2025,Legacy System,Ikeja,2026-09-23,Valid,3,Duplicate ID,2025-07-22,6,1,1001,Valid
+CUST-00583,Ada Ogunleye,07062745238,adaogunleye583@example.com,Abuja,Retail,10/10/2024,Branch,Abuja Central,2026-09-20,Valid,1,Unique ID,2024-10-10,6,1,68,Valid
+CUST-00584,Femi Adeyemi,08065782841,femiadeyemi584@example.com,Edo,Retail,05-Dec-2024,Website,Online,2026-09-22,Valid,1,Unique ID,2024-12-05,6,1,843,Valid
+CUST-00586,Halima Udo,09067517028,halimaudo586@example.com,Delta,SME,03/03/2026,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2026-03-03,6,1,460,Valid
+CUST-00587,Blessing Udo,08165150939,blessingudo587@example.com,Lagos,Retail,27-Mar-2024,Legacy System,Enugu,2026-09-23,Valid,4,Duplicate ID,2024-03-27,6,1,986,Valid
+CUST-00588,Joseph Ogunleye,07037186375,josephogunleye588@example.com,Kano,Retail,21-Jun-2023,Branch,Enugu,2026-09-21,Valid,2,Duplicate ID,2023-06-21,6,1,396,Valid
+CUST-00589,Amaka Obi,08142656504,amakaobi589@example.com,Ogun,Corporate,09/01/2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-09-01,6,1,670,Valid
+CUST-00590,Fatima Chukwu,08053767426,fatimachukwu590@example.com,Kano,Corporate,02/22/2026,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2026-02-22,6,1,956,Valid
+CUST-00591,Esther Ojo,+234 805 2347851,,Rivers,SME,09-May-2026,Branch,Port Harcourt,2026-09-20,Invalid,1,Unique ID,2026-05-09,5,2,325,Invalid
+CUST-00592,Joy Ekong,09034628792,joyekong592@example.com,Enugu,Retail,18-Apr-2025,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2025-04-18,6,1,1043,Valid
+CUST-00593,Samuel Abubakar,08034947873,samuelabubakar593@example.com,Enugu,Retail,01-Oct-2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-10-01,6,1,673,Valid
+CUST-00595,Kelvin Ibrahim,07065979647,kelvinibrahim595@example.com,Anambra,Corporate,17-May-2023,Legacy System,Kano,2026-09-23,Valid,2,Duplicate ID,2023-05-17,6,1,1073,Valid
+CUST-00596,Femi Eze,08034290257,femieze596@example.com,Kaduna,Retail,24-Mar-2026,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2026-03-24,6,1,916,Valid
+CUST-00598,Joseph Nwosu,07062855445,josephnwosu598@example.com,Edo,Retail,13/07/2023,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2023-07-13,6,1,1070,Valid
+CUST-00599,Blessing Mohammed,080328457,blessingmohammed599@example.com,Delta,Retail,22-Oct-2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-10-22,6,1,855,Valid
+CUST-00600,Joy Abubakar,08093898881,joyabubakar600@example.com,Abuja,Retail,2025-10-27,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-10-27,6,1,691,Valid
+CUST-00601,Ngozi Okeke,08037545279,ngoziokeke601@example.com,Abuja,Retail,26/09/2023,Website,Online,2026-09-22,Valid,4,Duplicate ID,2023-09-26,6,1,690,Valid
+CUST-00602,Joseph Afolayan,09061322342,josephafolayan602@example.com,Rivers,Small Business,28-Feb-2023,Branch,Ibadan,2026-09-20,Valid,1,Unique ID,2023-02-28,6,1,81,Valid
+CUST-00603,Samuel Balogun,08050760310,samuelbalogun603@example.com,Abuja,Retail,17/08/2023,Branch,Kano,2026-09-20,Valid,1,Unique ID,2023-08-17,6,1,139,Valid
+CUST-00604,Maryam Adebayo,08100140119,maryamadebayo604@example.com,Delta,Retail,01-Sep-2023,Branch,Ikeja,2026-09-21,Valid,3,Duplicate ID,2023-09-01,6,1,394,Valid
+CUST-00605,Samuel Ekong,08031249552,samuelekong605@example.com,Oyo,Retail,12/20/2024,Legacy System,Abuja Central,2026-09-23,Valid,2,Duplicate ID,2024-12-20,6,1,957,Valid
+CUST-00606,Chioma Adebayo,07061190833,chiomaadebayo606@example.com,Plateau,Small Business,31/10/2025,Branch,Port Harcourt,2026-09-21,Valid,1,Unique ID,2025-10-31,6,1,538,Valid
+CUST-00607,Kemi Abubakar,08098759271,kemiabubakar607@example.com,Ogun,Retail,2023-07-22,Branch,Ibadan,2026-09-21,Valid,2,Duplicate ID,2023-07-22,6,1,388,Valid
+CUST-00608,Ada Chukwu,08096151718,adachukwu608@example.com,Enugu,Retail,2025-11-19,Legacy System,Kano,2026-09-23,Valid,1,Unique ID,2025-11-19,6,1,1122,Valid
+CUST-00609,Ibrahim Lawal,09060157164,ibrahimlawal609@example.com,Kaduna,SME,02/15/2026,Legacy System,Ibadan,2026-09-23,Valid,2,Duplicate ID,2026-02-15,6,1,1060,Valid
+CUST-00610,Michael Obi,08098646317,michaelobi610@example.com,Plateau,Retail,28-Jun-2025,Website,Online,2026-09-22,Valid,2,Duplicate ID,2025-06-28,6,1,712,Valid
+CUST-00611,Grace Chukwu,+234 903 1678112,gracechukwu611@example.com,Rivers,Retail,03-Oct-2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-10-03,6,1,799,Valid
+CUST-00612,Daniel Sani,09062153539,danielsani612@example.com,Plateau,SME,28-Jul-2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-07-28,6,1,119,Valid
+CUST-00613,Chioma Sani,09067499465,chiomasani613@example.com,Abuja,Retail,05/19/2025,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2025-05-19,6,1,1057,Valid
+CUST-00615,Zainab Balogun,08057026952,zainabbalogun615@example.com,Lagos,Retail,19/04/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-04-19,6,1,904,Valid
+CUST-00616,Kemi Obi,09038773477,kemiobi616@example.com,Delta,Retail,06/06/2023,Website,Online,2026-09-22,Valid,1,Unique ID,2023-06-06,6,1,903,Valid
+CUST-00617,Joseph Ibrahim,,josephibrahim617@example.com,Ogun,Retail,2026-01-12,Branch,Port Harcourt,2026-09-20,Invalid,1,Unique ID,2026-01-12,5,2,9,Invalid
+CUST-00618,Chioma Sani,08068427624,chiomasani618@example.com,Anambra,Retail,2023-03-09,Legacy System,Port Harcourt,2026-09-23,Valid,3,Duplicate ID,2023-03-09,6,1,1014,Valid
+CUST-00619,Femi Sani,09037889778,femisani619@example.com,Anambra,SME,11-Mar-2026,Branch,Enugu,2026-09-20,Valid,1,Unique ID,2026-03-11,6,1,150,Valid
+CUST-00620,Chioma Abubakar,08169695450,chiomaabubakar620@example.com,Ogun,Retail,23-Jun-2024,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2024-06-23,6,1,569,Valid
+CUST-00621,Amina Ekong,08139056165,aminaekong621example.com,Lagos,Retail,01/20/2025,Branch,Lagos Island,2026-09-20,Invalid,1,Unique ID,2025-01-20,6,2,236,Invalid
+CUST-00622,Fatima Ojo,08093491141,fatimaojo622@example.com,Kaduna,Retail,05/15/2024,Legacy System,Ikeja,2026-09-23,Valid,2,Duplicate ID,2024-05-15,6,1,1071,Valid
+CUST-00623,Emeka Abubakar,08166986407,emekaabubakar623@example.com,Lagos,Retail,2023-03-18,Legacy System,Lagos Island,2026-09-23,Valid,2,Duplicate ID,2023-03-18,6,1,1021,Valid
+CUST-00624,Victor Okafor,081391713,victorokafor624@example.com,Kaduna,Retail,03/10/2025,Branch,Lagos Island,2026-09-21,Valid,3,Duplicate ID,2025-03-10,6,1,360,Valid
+CUST-00625,Joseph Afolayan,08143718344,josephafolayan625@example.com,Rivers,SME,14/01/2025,Website,Online,2026-09-22,Valid,1,Unique ID,2025-01-14,6,1,854,Valid
+CUST-00626,Chinedu Udo,07061919541,chineduudo626@example.com,Delta,Retail,07-Apr-2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-04-07,6,1,821,Valid
+CUST-00628,Ngozi Sani,09038208297,ngozisani628@example.com,Kano,SME,17-Jul-2025,Branch,Kano,2026-09-21,Valid,2,Duplicate ID,2025-07-17,6,1,440,Valid
+CUST-00629,Samuel Okeke,07066908357,samuelokeke629@example.com,Kano,Corporate,27-Dec-2025,Branch,Ikeja,2026-09-21,Valid,1,Unique ID,2025-12-27,6,1,485,Valid
+CUST-00630,Ibrahim Ogunleye,08146513644,ibrahimogunleye630@example.com,Rivers,Small Business,06/09/2024,Website,Online,2026-09-22,Valid,2,Duplicate ID,2024-06-09,6,1,774,Valid
+CUST-00631,Musa Abubakar,08143123034,musaabubakar631@example.com,Kano,SME,2024-04-28,Branch,Ibadan,2026-09-21,Valid,1,Unique ID,2024-04-28,6,1,467,Valid
+CUST-00632,Michael Lawal,090303242,michaellawal632@example.com,Ogun,Corporate,14-May-2025,Branch,Kano,2026-09-21,Valid,1,Unique ID,2025-05-14,6,1,484,Valid
+CUST-00633,Maryam Ibrahim,09067001594,maryamibrahim633@example.com,Edo,Small Business,28/03/2023,Branch,Ikeja,2026-09-21,Valid,2,Duplicate ID,2023-03-28,6,1,346,Valid
+CUST-00634,Chioma Bello,08142319818,chiomabello634@example.com,Enugu,Corporate,04/07/2023,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2023-04-07,6,1,266,Valid
+CUST-00635,Grace Ekong,08099155963,graceekong635@example.com,Ogun,Retail,04/07/2023,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-04-07,6,1,779,Valid
+CUST-00636,Joy Ojo,08094764907,joyojo636@example.com,Oyo,Retail,2023-12-25,Branch,Lagos Island,2026-09-21,Valid,1,Unique ID,2023-12-25,6,1,563,Valid
+CUST-00637,Temitope Chukwu,07036734257,temitopechukwu637@example.com,Plateau,Corporate,10/10/2024,Branch,Kano,2026-09-20,Valid,1,Unique ID,2024-10-10,6,1,37,Valid
+CUST-00638,Femi Chukwu,08030348645,femichukwu638@example.com,Kano,Retail,2026-05-25,Website,Online,2026-09-22,Valid,2,Duplicate ID,2026-05-25,6,1,780,Valid
+CUST-00640,Samuel Abubakar,08034177656,samuelabubakar640@example.com,Anambra,SME,04/12/2025,Branch,Ikeja,2026-09-20,Valid,1,Unique ID,2025-04-12,6,1,131,Valid
+CUST-00641,Ahmed Eze,08055698570,ahmedeze641@example.com,Rivers,SME,11/02/2025,Branch,Abuja Central,2026-09-21,Valid,1,Unique ID,2025-11-02,6,1,537,Valid
+CUST-00642,Kelvin Adeyemi,08162063459,kelvinadeyemi642@example.com,Edo,SME,07/14/2026,Legacy System,Enugu,2026-09-23,Valid,1,Unique ID,2026-07-14,6,1,1146,Valid
+CUST-00643,Tolu Eze,07066577242,tolueze643@example.com,Rivers,Retail,2023-09-24,Website,Online,2026-09-22,Valid,2,Duplicate ID,2023-09-24,6,1,762,Valid
+CUST-00645,Amina Okafor,08091734206,aminaokafor645@example.com,Ogun,SME,2026-07-07,Website,Online,2026-09-22,Valid,3,Duplicate ID,2026-07-07,6,1,732,Valid
+CUST-00646,Amaka Ojo,08132910867,amakaojo646@example.com,Delta,Retail,02-Jul-2023,Legacy System,Kano,2026-09-23,Valid,3,Duplicate ID,2023-07-02,6,1,936,Valid
+CUST-00647,Peter Lawal,+234 809 4476263,peterlawal647@example.com,Abuja,Retail,2024-02-21,Legacy System,Ibadan,2026-09-23,Valid,3,Duplicate ID,2024-02-21,6,1,1066,Valid
+CUST-00649,Amaka Okeke,08050725636,amakaokeke649@example.com,Oyo,Retail,07/27/2025,Website,Online,2026-09-22,Valid,3,Duplicate ID,2025-07-27,6,1,638,Valid
+CUST-00650,Femi Ojo,08058005375,,Plateau,SME,2023-05-30,Legacy System,Ibadan,2026-09-23,Invalid,1,Unique ID,2023-05-30,5,2,1138,Invalid

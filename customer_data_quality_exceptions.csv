@@ -1,0 +1,34 @@
+Customer_ID,Full_Name,Phone,Email,State,Source_Channel,Missing_Phone_Issue,Missing_Email_Issue,Malformed_Email_Issue,Issue_Count
+CUS00304,Samuel Abubakar,,samuelabubakar304@example.com,Edo,Branch,1,0,0,1
+CUST-00062,Fatima Ojo,,fatimaojo62@example.com,Plateau,Branch,1,0,0,1
+CUST-00065,Kemi Balogun,08050947775,,Edo,Branch,0,1,0,1
+CUST-00090,Kemi Ojo,08096713695,,Plateau,Legacy System,0,1,0,1
+CUST-00106,Amaka Ekong,07068478961,amakaekong106example.com,Ogun,Branch,0,0,1,1
+CUST-00152,Emeka Ibrahim,09062786814,emekaibrahim152example.com,Oyo,Branch,0,0,1,1
+CUST-00199,Zainab Ekong,,zainabekong199@example.com,Kaduna,Branch,1,0,0,1
+CUST-00222,Michael Chukwu,,michaelchukwu222@example.com,Kano,Branch,1,0,0,1
+CUST-00247,Chioma Bello,08093959629,,Anambra,Branch,0,1,0,1
+CUST-00253,Halima Ibrahim,,halimaibrahim253@example.com,Kaduna,Branch,1,0,0,1
+CUST-00298,Maryam Eze,,maryameze298@example.com,Plateau,Legacy System,1,0,0,1
+CUST-00325,Daniel Sani,,danielsani325@example.com,Plateau,Branch,1,0,0,1
+CUST-00342,Fatima Afolayan,,fatimaafolayan342@example.com,Enugu,Website,1,0,0,1
+CUST-00363,Daniel Ojo,,danielojo363@example.com,Edo,Website,1,0,0,1
+CUST-00365,Esther Adebayo,08108422940,estheradebayo365example.com,Abuja,Branch,0,0,1,1
+CUST-00368,Temitope Mohammed,,temitopemohammed368@example.com,Enugu,Branch,1,0,0,1
+CUST-00384,Peter Ekong,,peterekong384example.com,Delta,Branch,1,0,1,2
+CUST-00391,Ada Ogunleye,080922259,adaogunleye391example.com,Abuja,Website,0,0,1,1
+CUST-00402,Ngozi Ekong,08096887258,,Kaduna,Website,0,1,0,1
+CUST-00412,Tolu Sani,09033565880,,Edo,Legacy System,0,1,0,1
+CUST-00441,Zainab Adeyemi,07033764520,zainabadeyemi441example.com,Oyo,Legacy System,0,0,1,1
+CUST-00471,David Abubakar,,davidabubakar471@example.com,Lagos,Website,1,0,0,1
+CUST-00477,Musa Balogun,08064826292,,Delta,Branch,0,1,0,1
+CUST-00485,Samuel Udo,08107264908,,Anambra,Legacy System,0,1,0,1
+CUST-00509,Blessing Adebayo,,blessingadebayo509@example.com,Edo,Branch,1,0,0,1
+CUST-00518,Zainab Mohammed,,zainabmohammed518@example.com,Rivers,Branch,1,0,0,1
+CUST-00531,Temitope Okafor,,temitopeokafor531@example.com,Anambra,Legacy System,1,0,0,1
+CUST-00556,Ada Afolayan,08142582739,adaafolayan556example.com,Abuja,Branch,0,0,1,1
+CUST-00562,Kemi Nwosu,08160108220,keminwosu562example.com,Enugu,Legacy System,0,0,1,1
+CUST-00591,Esther Ojo,+234 805 2347851,,Rivers,Branch,0,1,0,1
+CUST-00617,Joseph Ibrahim,,josephibrahim617@example.com,Ogun,Branch,1,0,0,1
+CUST-00621,Amina Ekong,08139056165,aminaekong621example.com,Lagos,Branch,0,0,1,1
+CUST-00650,Femi Ojo,08058005375,,Plateau,Legacy System,0,1,0,1
